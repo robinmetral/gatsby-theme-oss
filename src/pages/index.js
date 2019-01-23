@@ -1,8 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Layout from "../components/Layout"
 
 const Message = styled.h1`
 
@@ -10,7 +9,6 @@ const Message = styled.h1`
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <Message>Hi, I'm Robin</Message>
   </Layout>
 )
