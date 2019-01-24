@@ -1,11 +1,20 @@
 {
   "patterns": [
     {
+      "name": "Brady Bunch",
+      "author": "Estelle Weyl",
+      "backgroundImage": "radial-gradient(closest-side, transparent 0%, transparent 75%, #B6CC66 76%, #B6CC66 85%, #EDFFDB 86%, #EDFFDB 94%, #FFFFFF 95%, #FFFFFF 103%, #D9E6A7 104%, #D9E6A7 112%, #798B3C 113%, #798B3C 121%, #FFFFFF 122%, #FFFFFF 130%, #E0EAD7 131%, #E0EAD7 140%),radial-gradient(closest-side, transparent 0%, transparent 75%, #B6CC66 76%, #B6CC66 85%, #EDFFDB 86%, #EDFFDB 94%, #FFFFFF 95%, #FFFFFF 103%, #D9E6A7 104%, #D9E6A7 112%, #798B3C 113%, #798B3C 121%, #FFFFFF 122%, #FFFFFF 130%, #E0EAD7 131%, #E0EAD7 140%)",
+      "backgroundSize": "110px 110px",
+      "backgroundColor": "#C8D3A7",
+      "backgroundPosition": "0 0, 55px 55px"
+    },
+    {
       "name": "Arrows",
       "author": "Jeroen Franse",
-      "background": "linear-gradient(45deg, #92baac 45px, transparent 45px)64px 64px, linear-gradient(45deg, #92baac 45px, transparent 45px,transparent 91px, #e1ebbd 91px, #e1ebbd 135px, transparent 135px), linear-gradient(-45deg, #92baac 23px, transparent 23px, transparent 68px,#92baac 68px,#92baac 113px,transparent 113px,transparent 158px,#92baac 158px)",
+      "backgroundImage": "linear-gradient(45deg, rgb(146, 186, 172) 45px, transparent 45px), linear-gradient(45deg, rgb(146, 186, 172) 45px, transparent 45px, transparent 91px, rgb(225, 235, 189) 91px, rgb(225, 235, 189) 135px, transparent 135px), linear-gradient(-45deg, rgb(146, 186, 172) 23px, transparent 23px, transparent 68px, rgb(146, 186, 172) 68px, rgb(146, 186, 172) 113px, transparent 113px, transparent 158px, rgb(146, 186, 172) 158px)",
+      "backgroundSize": "128px 128px",
       "backgroundColor": "#e1ebbd",
-      "backgroundSize": "128px 128px"
+      "backgroundPosition": "64px 64px, 0% 0%, 0% 0%"
     }
   ]
 }

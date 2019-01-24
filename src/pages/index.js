@@ -12,9 +12,10 @@ const IndexPage = ({ data }) => {
   return (
     <div id="background"
       style={{
-      background: patternStyles.background,
+      backgroundImage: patternStyles.backgroundImage,
       backgroundColor: patternStyles.backgroundColor,
       backgroundSize: patternStyles.backgroundSize,
+      backgroundPosition: patternStyles.backgroundPosition,
       }}
     >
       <Helmet>
