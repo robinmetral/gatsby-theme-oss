@@ -2,6 +2,8 @@ import React from "react"
 import { graphql } from "gatsby"
 import { Helmet } from "react-helmet"
 
+import "../styles/main.css"
+
 const IndexPage = ({ data }) => (
   <>
     <Helmet>

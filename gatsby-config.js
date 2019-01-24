@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Robin's site",
     description: "My description",
-    message: "Hey, I'm Robin",
+    message: "Hi, nice to meet you!",
     typeface: "Lobster"
   },
   plugins: [
