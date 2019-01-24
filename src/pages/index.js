@@ -14,6 +14,7 @@ const IndexPage = ({ data }) => (
     <h1
       style={{
         fontFamily: data.site.siteMetadata.typeface,
+        color: data.site.siteMetadata.color,
       }}
     >{ data.site.siteMetadata.message }</h1>
   </>
@@ -28,6 +29,7 @@ export const query = graphql`
         title
         description
         message
+        color
         typeface
       }
     }
