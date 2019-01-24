@@ -1,0 +1,92 @@
+{
+  "patterns": [
+    {
+      "name": "Marrakesh",
+      "author": "Divya Manian",
+      "backgroundImage": "radial-gradient(midnightblue 9px, transparent 10px),repeating-radial-gradient(midnightblue 0, midnightblue 4px, transparent 5px, transparent 20px, midnightblue 21px, midnightblue 25px, transparent 26px, transparent 50px)",
+      "backgroundSize": "30px 30px, 90px 90px",
+      "backgroundColor": "white",
+      "backgroundPosition": "0 0"
+    },
+    {
+      "name": "Cross",
+      "author": "Lea Verou",
+      "backgroundImage": "radial-gradient(circle at center center, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent), radial-gradient(circle at center center, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent), linear-gradient(rgb(168, 177, 187) 8px, transparent 8px), linear-gradient(90deg, rgb(168, 177, 187) 8px, transparent 8px)",
+      "backgroundSize": "100px 100px, 100px 100px, 50px 50px, 50px 50px",
+      "backgroundColor": "slategray",
+      "backgroundPosition": "0% 0%, 50px 50px, 0px -4px, -4px 0px"
+    },
+    {
+      "name": "Seigaiha",
+      "author": "Lea Verou",
+      "backgroundImage": "radial-gradient(circle at 100% 150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),radial-gradient(circle at 0    150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),radial-gradient(circle at 50%  100%, white 10%, silver 11%, silver 23%, white 24%, white 30%, silver 31%, silver 43%, white 44%, white 50%, silver 51%, silver 63%, white 64%, white 71%, transparent 71%, transparent),radial-gradient(circle at 100% 50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent),radial-gradient(circle at 0    50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent)",
+      "backgroundSize": "100px 50px",
+      "backgroundColor": "silver",
+      "backgroundPosition": "0% 0%"
+    },
+    {
+      "name": "Japanese cube",
+      "author": "Lea Verou",
+      "backgroundImage": "linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),linear-gradient(150deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),linear-gradient(150deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a),linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a)",
+      "backgroundSize": "80px 140px",
+      "backgroundColor": "#556",
+      "backgroundPosition": "0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px"
+    },
+    {
+      "name": "Bricks",
+      "author": "Tab Atkins Jr",
+      "backgroundImage": "linear-gradient(335deg, #b00 23px, transparent 23px),linear-gradient(155deg, #d00 23px, transparent 23px),linear-gradient(335deg, #b00 23px, transparent 23px),linear-gradient(155deg, #d00 23px, transparent 23px)",
+      "backgroundSize": "58px 58px",
+      "backgroundColor": "silver",
+      "backgroundPosition": "0px 2px, 4px 35px, 29px 31px, 34px 6px"
+    },
+    {
+      "name": "Argyle",
+      "author": "Anna Kassner",
+      "backgroundImage": "repeating-linear-gradient(120deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),repeating-linear-gradient(60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),linear-gradient(60deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1)),linear-gradient(120deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1))",
+      "backgroundSize": "70px 120px",
+      "backgroundColor": "#6d695c",
+      "backgroundPosition": "0% 0%"
+    },
+    {
+      "name": "Weave",
+      "author": "Jeroen Franse",
+      "backgroundImage": "linear-gradient(135deg, rgb(112, 128, 144) 21px, rgb(217, 236, 255) 22px, rgb(217, 236, 255) 24px, transparent 24px, transparent 67px, rgb(217, 236, 255) 67px, rgb(217, 236, 255) 69px, transparent 69px), linear-gradient(225deg, rgb(112, 128, 144) 21px, rgb(217, 236, 255) 22px, rgb(217, 236, 255) 24px, transparent 24px, transparent 67px, rgb(217, 236, 255) 67px, rgb(217, 236, 255) 69px, transparent 69px)",
+      "backgroundSize": "64px 128px",
+      "backgroundColor": "#708090",
+      "backgroundPosition": "0% 0%, 0px 64px"
+    },
+    {
+      "name": "Yin Yang",
+      "author": "Lea Verou",
+      "backgroundImage": "radial-gradient(circle at 50% 59%, rgb(210, 202, 171) 3%, rgb(54, 78, 39) 4%, rgb(54, 78, 39) 11%, rgba(54, 78, 39, 0) 12%, rgba(54, 78, 39, 0)), radial-gradient(circle at 50% 41%, rgb(54, 78, 39) 3%, rgb(210, 202, 171) 4%, rgb(210, 202, 171) 11%, rgba(210, 202, 171, 0) 12%, rgba(210, 202, 171, 0)), radial-gradient(circle at 50% 59%, rgb(210, 202, 171) 3%, rgb(54, 78, 39) 4%, rgb(54, 78, 39) 11%, rgba(54, 78, 39, 0) 12%, rgba(54, 78, 39, 0)), radial-gradient(circle at 50% 41%, rgb(54, 78, 39) 3%, rgb(210, 202, 171) 4%, rgb(210, 202, 171) 11%, rgba(210, 202, 171, 0) 12%, rgba(210, 202, 171, 0)), radial-gradient(circle at 100% 50%, rgb(210, 202, 171) 16%, rgba(210, 202, 171, 0) 17%), radial-gradient(circle at 0% 50%, rgb(54, 78, 39) 16%, rgba(54, 78, 39, 0) 17%), radial-gradient(circle at 100% 50%, rgb(210, 202, 171) 16%, rgba(210, 202, 171, 0) 17%), radial-gradient(circle at 0% 50%, rgb(54, 78, 39) 16%, rgba(54, 78, 39, 0) 17%)",
+      "backgroundSize": "100px 100px",
+      "backgroundColor": "#63773F",
+      "backgroundPosition": "50px 0px, 50px 0px, 0px 50px, 0px 50px, 0% 0%, 0% 0%, 50px 50px, 50px 50px"
+    },
+    {
+      "name": "Shippo",
+      "author": "Lea Verou",
+      "backgroundImage": "radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%),radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%)",
+      "backgroundSize": "80px 80px",
+      "backgroundColor": "#def",
+      "backgroundPosition": "0 0, 40px 40px"
+    },
+    {
+      "name": "Brady Bunch",
+      "author": "Estelle Weyl",
+      "backgroundImage": "radial-gradient(closest-side, transparent 0%, transparent 75%, #B6CC66 76%, #B6CC66 85%, #EDFFDB 86%, #EDFFDB 94%, #FFFFFF 95%, #FFFFFF 103%, #D9E6A7 104%, #D9E6A7 112%, #798B3C 113%, #798B3C 121%, #FFFFFF 122%, #FFFFFF 130%, #E0EAD7 131%, #E0EAD7 140%),radial-gradient(closest-side, transparent 0%, transparent 75%, #B6CC66 76%, #B6CC66 85%, #EDFFDB 86%, #EDFFDB 94%, #FFFFFF 95%, #FFFFFF 103%, #D9E6A7 104%, #D9E6A7 112%, #798B3C 113%, #798B3C 121%, #FFFFFF 122%, #FFFFFF 130%, #E0EAD7 131%, #E0EAD7 140%)",
+      "backgroundSize": "110px 110px",
+      "backgroundColor": "#C8D3A7",
+      "backgroundPosition": "0 0, 55px 55px"
+    },
+    {
+      "name": "Arrows",
+      "author": "Jeroen Franse",
+      "backgroundImage": "linear-gradient(45deg, rgb(146, 186, 172) 45px, transparent 45px), linear-gradient(45deg, rgb(146, 186, 172) 45px, transparent 45px, transparent 91px, rgb(225, 235, 189) 91px, rgb(225, 235, 189) 135px, transparent 135px), linear-gradient(-45deg, rgb(146, 186, 172) 23px, transparent 23px, transparent 68px, rgb(146, 186, 172) 68px, rgb(146, 186, 172) 113px, transparent 113px, transparent 158px, rgb(146, 186, 172) 158px)",
+      "backgroundSize": "128px 128px",
+      "backgroundColor": "#e1ebbd",
+      "backgroundPosition": "64px 64px, 0% 0%, 0% 0%"
+    }
+  ]
+}
