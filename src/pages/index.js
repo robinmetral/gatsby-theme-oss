@@ -5,40 +5,46 @@ import { Helmet } from "react-helmet"
 import "../styles/main.css"
 import Patterns from "../styles/patterns.json"
 
-const IndexPage = ({ data }) => (
-  <div id="background"
-    style={{
-      background: Patterns.patterns[0].background,
-      backgroundColor: Patterns.patterns[0].backgroundColor,
-      backgroundSize: Patterns.patterns[0].backgroundSize,
-    }}
-  >
-    <Helmet>
-      <meta charSet="utf-8" />
-      <title>{ data.site.siteMetadata.title } | { data.site.siteMetadata.description }</title>
-      <link rel="stylesheet" href={ "https://fonts.googleapis.com/css?family=" + data.site.siteMetadata.typeface } />
-    </Helmet>
-    <h1
+const IndexPage = ({ data }) => {
+
+  const { title, description, pattern, message, color, typeface } = data.site.siteMetadata
+  const patternStyles = Patterns.patterns.find((p) => p.name === pattern)
+  return (
+    <div id="background"
       style={{
-        fontFamily: data.site.siteMetadata.typeface,
-        color: data.site.siteMetadata.color,
+      background: patternStyles.background,
+      backgroundColor: patternStyles.backgroundColor,
+      backgroundSize: patternStyles.backgroundSize,
       }}
-    >{ data.site.siteMetadata.message }</h1>
-  </div>
-)
+    >
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>{ title } &middot; { description }</title>
+        <link rel="stylesheet" href={ "https://fonts.googleapis.com/css?family=" + typeface } />
+      </Helmet>
+      <h1
+        style={{
+        fontFamily: typeface,
+        color: color,
+        }}
+      >{ message }</h1>
+    </div>
+    )
+}
 
 export default IndexPage
 
 export const query = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-        description
-        message
-        color
-        typeface
-      }
+query {
+  site {
+    siteMetadata {
+      title
+      description
+      pattern
+      message
+      color
+      typeface
     }
   }
+}
 `
