@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Hi 👋",
     description: "robinmetral.com",
-    pattern: "Arrows",
+    pattern: "Shippo",
     message: "Hi, nice to meet you!",
     color: "#4c4c4c",
     typeface: "Lobster"
