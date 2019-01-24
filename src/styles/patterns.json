@@ -1,6 +1,14 @@
 {
   "patterns": [
     {
+      "name": "Yin Yang",
+      "author": "Lea Verou",
+      "backgroundImage": "radial-gradient(circle at 50% 59%, rgb(210, 202, 171) 3%, rgb(54, 78, 39) 4%, rgb(54, 78, 39) 11%, rgba(54, 78, 39, 0) 12%, rgba(54, 78, 39, 0)), radial-gradient(circle at 50% 41%, rgb(54, 78, 39) 3%, rgb(210, 202, 171) 4%, rgb(210, 202, 171) 11%, rgba(210, 202, 171, 0) 12%, rgba(210, 202, 171, 0)), radial-gradient(circle at 50% 59%, rgb(210, 202, 171) 3%, rgb(54, 78, 39) 4%, rgb(54, 78, 39) 11%, rgba(54, 78, 39, 0) 12%, rgba(54, 78, 39, 0)), radial-gradient(circle at 50% 41%, rgb(54, 78, 39) 3%, rgb(210, 202, 171) 4%, rgb(210, 202, 171) 11%, rgba(210, 202, 171, 0) 12%, rgba(210, 202, 171, 0)), radial-gradient(circle at 100% 50%, rgb(210, 202, 171) 16%, rgba(210, 202, 171, 0) 17%), radial-gradient(circle at 0% 50%, rgb(54, 78, 39) 16%, rgba(54, 78, 39, 0) 17%), radial-gradient(circle at 100% 50%, rgb(210, 202, 171) 16%, rgba(210, 202, 171, 0) 17%), radial-gradient(circle at 0% 50%, rgb(54, 78, 39) 16%, rgba(54, 78, 39, 0) 17%)",
+      "backgroundSize": "100px 100px",
+      "backgroundColor": "#63773F",
+      "backgroundPosition": "50px 0px, 50px 0px, 0px 50px, 0px 50px, 0% 0%, 0% 0%, 50px 50px, 50px 50px"
+    },
+    {
       "name": "Shippo",
       "author": "Lea Verou",
       "backgroundImage": "radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%),radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%)",
