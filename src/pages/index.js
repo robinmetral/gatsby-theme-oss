@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import { Helmet } from "react-helmet"
 
-import Bio from "../components/Bio"
+import Message from "../components/Message"
 import Social from "../components/Social"
 
 import "../styles/main.css"
@@ -10,7 +10,7 @@ import Patterns from "../styles/patterns.json"
 
 const IndexPage = ({ data }) => {
 
-  const { title, bio, pattern, color, headingFont, textFont, social } = data.site.siteMetadata
+  const { title, message, pattern, color, headingFont, textFont, social } = data.site.siteMetadata
   const patternStyles = Patterns.patterns.find((p) => p.name === pattern)
   return (
     <div id="background"
@@ -36,10 +36,10 @@ const IndexPage = ({ data }) => {
         style={{
         fontFamily: headingFont,
         color: color,
-        fontSize: "10vw",
+        fontSize: "8vw",
         }}
       >{ title }</h1>
-      <Bio bio={bio} textFont={textFont} color={color} />
+      <Message message={message} textFont={textFont} color={color} />
       <Social social={social} color={color} />
     </div>
     )
@@ -52,7 +52,7 @@ query {
   site {
     siteMetadata {
       title
-      bio
+      message
       pattern
       color
       headingFont
