@@ -1,5 +1,5 @@
 # gatsby-starter-under-construction
-A starter with a blazing quick setup, to host on your domain while you build your new Gatsby site.
+Blazing fast "Under Construction" page with a blazing quick setup.
 
 ## Features
  - Configure everything in `gatsby-config.js`
