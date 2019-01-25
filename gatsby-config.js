@@ -5,7 +5,9 @@ module.exports = {
     pattern: "Arrows",
     color: "#4c4c4c",
     headingFont: "Lobster",
-    textFont: "Montserrat"
+    textFont: "Montserrat",
+    twitter: "robinmetral",
+    github: "robinmetral",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
