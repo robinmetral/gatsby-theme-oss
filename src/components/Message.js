@@ -1,6 +1,6 @@
 import React from "react"
 
-const Bio = (props) => {
+const Message = (props) => {
   return (
     <div
       style={{
@@ -14,9 +14,9 @@ const Bio = (props) => {
         fontSize: "2vw",
         textAlign: "center",
         }}
-      >{props.bio}</p>
+      >{props.message}</p>
     </div>
     )
 }
 
-export default Bio
+export default Message
