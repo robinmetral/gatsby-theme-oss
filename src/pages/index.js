@@ -40,7 +40,7 @@ const IndexPage = ({ data }) => {
         }}
       >{ title }</h1>
       <Bio bio={bio} textFont={textFont} color={color} />
-      <Social social={social} />
+      <Social social={social} color={color} />
     </div>
     )
 }

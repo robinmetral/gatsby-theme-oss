@@ -9,8 +9,15 @@ const Social = (props) => {
       display: "flex",
       }}
     >
-      <li><a href={ "https://github.com/" + props.github }>GitHub</a></li>
-      <li><a href={ "https://twitter.com/" + props.twitter }>Twitter</a></li>
+      {
+      props.social.map(icon => (
+      <li
+        style={{
+        padding: "0.5rem",
+        }}
+      ><SocialIcon url={icon} bgColor={props.color} /></li>
+      ) )
+      }
     </ul>
     )
 }
