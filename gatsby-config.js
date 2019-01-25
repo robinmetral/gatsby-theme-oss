@@ -1,9 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Hi 👋",
-    description: "robinmetral.com",
+    title: "Hi, I'm Robin 👋",
+    bio: "I make blazing fast Gatsby sites and blogs 🚀 Also I like coffee ☕ (a lot ☕☕☕☕☕)",
     pattern: "Arrows",
-    message: "Hi, I'm Robin 👋",
     color: "#4c4c4c",
     typeface: "Lobster"
   },
