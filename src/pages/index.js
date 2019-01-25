@@ -9,7 +9,7 @@ import Patterns from "../styles/patterns.json"
 
 const IndexPage = ({ data }) => {
 
-  const { title, bio, pattern, color, typeface } = data.site.siteMetadata
+  const { title, bio, pattern, color, headingFont, textFont } = data.site.siteMetadata
   const patternStyles = Patterns.patterns.find((p) => p.name === pattern)
   return (
     <div id="background"
@@ -18,20 +18,27 @@ const IndexPage = ({ data }) => {
       backgroundColor: patternStyles.backgroundColor,
       backgroundSize: patternStyles.backgroundSize,
       backgroundPosition: patternStyles.backgroundPosition,
+      height: "100vh",
+      width: "100vw",
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "center",
+      alignItems:"center",
       }}
     >
       <Helmet>
         <meta charSet="utf-8" />
         <title>{ title }</title>
-        <link rel="stylesheet" href={ "https://fonts.googleapis.com/css?family=" + typeface } />
+        <link rel="stylesheet" href={ "https://fonts.googleapis.com/css?family=" + headingFont + "|" + textFont } />
       </Helmet>
       <h1
         style={{
-        fontFamily: typeface,
+        fontFamily: headingFont,
         color: color,
+        fontSize: "10vw",
         }}
       >{ title }</h1>
-      <Bio bio={bio} />
+      <Bio bio={bio} textFont={textFont} color={color} />
     </div>
     )
 }
@@ -46,7 +53,8 @@ query {
       bio
       pattern
       color
-      typeface
+      headingFont
+      textFont
     }
   }
 }
