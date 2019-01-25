@@ -10,7 +10,8 @@
     "gatsby-plugin-react-helmet": "^3.0.5",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "react-social-icons": "^4.1.0"
   },
   "keywords": [
     "gatsby"

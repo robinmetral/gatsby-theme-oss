@@ -3,13 +3,14 @@ import { graphql } from "gatsby"
 import { Helmet } from "react-helmet"
 
 import Bio from "../components/Bio"
+import Social from "../components/Social"
 
 import "../styles/main.css"
 import Patterns from "../styles/patterns.json"
 
 const IndexPage = ({ data }) => {
 
-  const { title, bio, pattern, color, headingFont, textFont } = data.site.siteMetadata
+  const { title, bio, pattern, color, headingFont, textFont, social } = data.site.siteMetadata
   const patternStyles = Patterns.patterns.find((p) => p.name === pattern)
   return (
     <div id="background"
@@ -39,6 +40,7 @@ const IndexPage = ({ data }) => {
         }}
       >{ title }</h1>
       <Bio bio={bio} textFont={textFont} color={color} />
+      <Social social={social} color={color} />
     </div>
     )
 }
@@ -55,6 +57,7 @@ query {
       color
       headingFont
       textFont
+      social
     }
   }
 }
