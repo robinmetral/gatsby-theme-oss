@@ -1,4 +1,5 @@
 import React from "react"
+import { SocialIcon } from "react-social-icons"
 
 const Social = (props) => {
   return (
