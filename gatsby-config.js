@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: "Hi 👋",
-    description: "robinmetral.com",
+    title: "Hi, I'm Robin 👋",
+    bio: "I make blazing fast Gatsby sites and blogs 🚀 You can usually find me on GitHub or in coffee shops ☕",
     pattern: "Arrows",
-    message: "Hi, I'm Robin 👋",
     color: "#4c4c4c",
-    typeface: "Lobster"
+    headingFont: "Lobster",
+    textFont: "Montserrat"
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
