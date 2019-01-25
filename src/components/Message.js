@@ -9,7 +9,7 @@ const Message = (props) => {
     >
       <p
         style={{
-        fontFamily: props.textFont,
+        fontFamily: props.messageFont,
         color: props.color,
         fontSize: "2vw",
         textAlign: "center",

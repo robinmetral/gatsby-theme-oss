@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import { Helmet } from "react-helmet"
 
+import Title from "../components/Title"
 import Message from "../components/Message"
 import Social from "../components/Social"
 
@@ -10,7 +11,7 @@ import Patterns from "../styles/patterns.json"
 
 const IndexPage = ({ data }) => {
 
-  const { title, message, pattern, color, headingFont, textFont, social } = data.site.siteMetadata
+  const { title, message, pattern, color, titleFont, messageFont, social } = data.site.siteMetadata
   const patternStyles = Patterns.patterns.find((p) => p.name === pattern)
   return (
     <div id="background"
@@ -30,16 +31,10 @@ const IndexPage = ({ data }) => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>{ title }</title>
-        <link rel="stylesheet" href={ "https://fonts.googleapis.com/css?family=" + headingFont + "|" + textFont } />
+        <link rel="stylesheet" href={ "https://fonts.googleapis.com/css?family=" + titleFont + "|" + messageFont } />
       </Helmet>
-      <h1
-        style={{
-        fontFamily: headingFont,
-        color: color,
-        fontSize: "8vw",
-        }}
-      >{ title }</h1>
-      <Message message={message} textFont={textFont} color={color} />
+      <Title title={title} titleFont={titleFont} color={color} />
+      <Message message={message} messageFont={messageFont} color={color} />
       <Social social={social} color={color} />
     </div>
     )
@@ -55,8 +50,8 @@ query {
       message
       pattern
       color
-      headingFont
-      textFont
+      titleFont
+      messageFont
       social
     }
   }
