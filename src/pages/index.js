@@ -10,7 +10,7 @@ import Patterns from "../styles/patterns.json"
 
 const IndexPage = ({ data }) => {
 
-  const { title, bio, pattern, color, headingFont, textFont, github, twitter } = data.site.siteMetadata
+  const { title, bio, pattern, color, headingFont, textFont, social } = data.site.siteMetadata
   const patternStyles = Patterns.patterns.find((p) => p.name === pattern)
   return (
     <div id="background"
@@ -40,7 +40,7 @@ const IndexPage = ({ data }) => {
         }}
       >{ title }</h1>
       <Bio bio={bio} textFont={textFont} color={color} />
-      <Social github={github} twitter={twitter} />
+      <Social social={social} />
     </div>
     )
 }
@@ -57,8 +57,7 @@ query {
       color
       headingFont
       textFont
-      github
-      twitter
+      social
     }
   }
 }
