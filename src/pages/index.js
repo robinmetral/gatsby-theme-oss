@@ -30,6 +30,7 @@ const IndexPage = ({ data }) => {
     >
       <Helmet>
         <meta charSet="utf-8" />
+        <meta name="description" content={ title + "&middot" + message } />
         <title>{ title }</title>
         <link rel="stylesheet" href={ "https://fonts.googleapis.com/css?family=" + titleFont + "|" + messageFont } />
       </Helmet>
