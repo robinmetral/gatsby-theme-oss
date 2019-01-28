@@ -4,7 +4,7 @@ const Message = (props) => {
   return (
     <div
       style={{
-      maxWidth: "60vw",
+      maxWidth: "30em",
       }}
     >
       <p
