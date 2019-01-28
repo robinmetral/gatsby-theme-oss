@@ -24,9 +24,9 @@ const PatternsPage = () => {
         key={pattern.name}
         title={pattern.name}
         style={{
-        height: "30rem",
-        minWidth: "30rem",
-        margin: "1rem",
+        height: "15em",
+        minWidth: "15em",
+        margin: "0.5em",
         backgroundImage: pattern.backgroundImage,
         backgroundColor: pattern.backgroundColor,
         backgroundSize: pattern.backgroundSize,
