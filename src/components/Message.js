@@ -11,7 +11,7 @@ const Message = (props) => {
         style={{
         fontFamily: props.messageFont,
         color: props.color,
-        fontSize: "2vw",
+        fontSize: "1em",
         textAlign: "center",
         }}
       >{props.message}</p>
