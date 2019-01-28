@@ -1,5 +1,5 @@
 html {
-  font-size: 2vw;
+  font-size: calc(1em + 1vw);
 }
 
 body {
