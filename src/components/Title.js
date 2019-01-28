@@ -2,6 +2,11 @@ import React from "react"
 
 const Title = (props) => {
   return (
+    <div
+      style={{
+      padding: "1em",
+      }}
+    >
       <h1
         style={{
         fontFamily: props.titleFont,
@@ -12,6 +17,7 @@ const Title = (props) => {
         textAlign: "center",
         }}
       >{ props.title }</h1>
+    </div>
     )
 }
 
