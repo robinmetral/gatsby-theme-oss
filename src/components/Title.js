@@ -7,6 +7,8 @@ const Title = (props) => {
         fontFamily: props.titleFont,
         color: props.color,
         fontSize: "8vw",
+        fontWeight: "normal",
+        margin: "0",
         }}
       >{ props.title }</h1>
     )
