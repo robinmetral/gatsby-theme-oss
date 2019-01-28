@@ -4,14 +4,15 @@ const Message = (props) => {
   return (
     <div
       style={{
-      maxWidth: "60vw",
+      maxWidth: "30em",
+      padding: "0 1em",
       }}
     >
       <p
         style={{
         fontFamily: props.messageFont,
         color: props.color,
-        fontSize: "2vw",
+        fontSize: "1em",
         textAlign: "center",
         }}
       >{props.message}</p>

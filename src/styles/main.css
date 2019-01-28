@@ -1,11 +1,8 @@
-/* NORMALIZE */
+html {
+  font-size: calc(1em + 1vw);
+}
 
 body {
   padding: 0;
-  margin: 0;
-}
-
-h1 {
-  font-weight: normal;
   margin: 0;
 }

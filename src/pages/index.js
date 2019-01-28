@@ -20,12 +20,12 @@ const IndexPage = ({ data }) => {
       backgroundColor: patternStyles.backgroundColor,
       backgroundSize: patternStyles.backgroundSize,
       backgroundPosition: patternStyles.backgroundPosition,
-      height: "100vh",
+      minHeight: "100vh",
       width: "100vw",
       display: "flex",
       flexDirection: "column",
       justifyContent: "center",
-      alignItems:"center",
+      alignItems: "center",
       }}
     >
       <Helmet>
