@@ -9,6 +9,7 @@ Blazing fast "Under Construction" page with a blazing quick setup.
 - Creative CSS3 background patterns by [Lea Verou](https://github.com/LeaVerou/css3patterns)
 - Built-in Google Fonts support
 - Social icons with [`react-social-icons`](https://github.com/jaketrent/react-social-icons)
+- `react-transition-group` transitions
 
 
 ## Setup
