@@ -1,20 +1,10 @@
 import React from "react"
 import Transition from "react-transition-group/Transition"
 
-const duration = 400
-
-const defaultStyle = {
-  transition: `opacity ${duration}ms ease-in-out`,
-  opacity: 0,
-}
-
-const transitionStyles = {
-  entering: { opacity: 0 },
-  entered: { opacity: 1 },
-}
+import { defaultStyle, transitionStyles } from "../transitions"
 
 const Title = (props) => (
-  <Transition in appear={true} timeout={duration}>
+  <Transition in appear={true} timeout={400}>
     {(state) => (
     <div
       style={{
