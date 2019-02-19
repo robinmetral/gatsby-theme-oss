@@ -1,12 +1,18 @@
 import React from "react"
 import { SocialIcon } from "react-social-icons"
+import Transition from "react-transition-group/Transition"
 
-const Social = (props) => {
-  return (
+import { defaultStyle, transitionStyles } from "../transitions"
+
+const Social = (props) => (
+  <Transition in appear={true} timeout={2000}>
+    {(state) => (
     <ul
       style={{
       listStyleType: "none",
       display: "flex",
+      ...defaultStyle,
+      ...transitionStyles[state],
       }}
     >
       {
@@ -19,7 +25,8 @@ const Social = (props) => {
       ) )
       }
     </ul>
-    )
-}
+    )}
+  </Transition>
+)
 
 export default Social
