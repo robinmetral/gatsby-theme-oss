@@ -9,7 +9,7 @@ Deploy in minutes and use as a temporary landing page while you build your Gatsb
   - [:trophy: Lightouse scores](#trophy-lighthouse-scores)
   - [:abc: Built-in Google Fonts support](#abc-built-in-google-fonts-support)
   - [:nail_care: CSS3 background patterns](#nail_care-css3-background-patterns)
-  - [:link: Social icons](#link-social-icons)
+  - [:link: Social links](#link-social-links)
   - [:dizzy: Transitions](#dizzy-transitions)
 - [:wrench: Usage](#wrench-usage)
   - [:nut_and_bolt: Dependencies](#nut_and_bolt-dependencies)
@@ -45,7 +45,7 @@ Choose from a selection of [CSS3 background patterns](https://github.com/LeaVero
 
 The available patterns can be found [here](https://gatsby-starter-under-construction.netlify.com/patterns)
 
-## :link: Social icons
+## :link: Social links
 
 Dynamically render social icons with Jake Trent's [react-social-icons](https://github.com/jaketrent/react-social-icons).
 
