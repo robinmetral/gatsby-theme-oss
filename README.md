@@ -2,17 +2,21 @@
 
 Blazing fast "Under Construction" page with a blazing quick setup.
 
+- [:fire: Features](#fire-features)
+  - [:rocket: Blazing fast setup](#rocket-blazing-fast-setup)
+  - [:trophy: Lightouse scores](#trophy-lighthouse-scores)
+  - [:abc: Built-in Google Fonts support](#abc-built-in-google-fonts-support)
+  - [:nail_care: CSS3 background patterns](#nail_care-css3-background-patterns)
+  - [:link: Social icons](#link-social-icons)
+  - [:dizzy: Transitions](#dizzy-transitions)
+- [:truck: Development](#truck-development)
+  - [:hammer: Licence](#hammer-licence)
 
-## Features
+---
 
-- Configure everything in `gatsby-config.js`
-- Creative CSS3 background patterns by [Lea Verou](https://github.com/LeaVerou/css3patterns)
-- Built-in Google Fonts support
-- Social icons with [`react-social-icons`](https://github.com/jaketrent/react-social-icons)
-- `react-transition-group` transitions
+# :fire: Features
 
-
-## Setup
+## :rocket: Blazing fast setup
 
 Simply edit the `siteMetadata` variables in `gatsby-config.js`:
 
@@ -37,7 +41,30 @@ module.exports = {
 }
 ```
 
+## :trophy: Lighthouse scores
 
-## Licence
+![Lightouse scores screenshot](https://raw.githubusercontent.com/robinmetral/gatsby-starter-under-construction/master/20190414-lighthouse-screenshot.png)
+
+Performance is only hindered by Google Fonts being hosted on Google's CDN. If you don't need to change fonts often, consider self-hosting your webfonts.
+
+## :abc: Built-in Google Fonts support
+
+## :nail_care: CSS3 background patterns
+
+CSS3 background patterns by [Lea Verou](https://github.com/LeaVerou/css3patterns)
+
+## :link: Social icons
+
+Social icons with [`react-social-icons`](https://github.com/jaketrent/react-social-icons)
+
+## :dizzy: Transitions
+
+`react-transition-group` transitions
+
+---
+
+# :truck: Development
+
+## :hammer: Licence
 
 MIT
