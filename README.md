@@ -3,7 +3,7 @@
 Blazing fast "Under Construction" page with a blazing quick setup.
 
 - [:fire: Features](#fire-features)
-  - [:rocket: Blazing fast setup](#rocket-blazing-quick-setup)
+  - [:rocket: Blazing quick setup](#rocket-blazing-quick-setup)
   - [:trophy: Lightouse scores](#trophy-lighthouse-scores)
   - [:abc: Built-in Google Fonts support](#abc-built-in-google-fonts-support)
   - [:nail_care: CSS3 background patterns](#nail_care-css3-background-patterns)
