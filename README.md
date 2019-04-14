@@ -1,4 +1,4 @@
-# Under Construction
+# :construction: Under Construction
 
 Blazing fast [Gatsby](https://gatsbyjs.org) starter with a blazing quick setup.
 
