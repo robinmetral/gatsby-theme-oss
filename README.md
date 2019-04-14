@@ -1,4 +1,4 @@
-# gatsby-starter-under-construction
+# Under Construction
 
 Blazing fast "Under Construction" page with a blazing quick setup.
 
