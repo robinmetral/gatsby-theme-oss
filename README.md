@@ -19,15 +19,15 @@ Deploy in minutes and use as a temporary landing page while you build your Gatsb
 
 ---
 
-# :fire: Features
+## :fire: Features
 
-## :rocket: Blazing quick setup
+### :rocket: Blazing quick setup
 
 Deploy in minutes: everything is set up in `gatsby-config.js`.
 
 See [Setup](#zap-setup) for instructions.
 
-## :trophy: Lighthouse scores
+### :trophy: Lighthouse scores
 
 ![Lightouse scores screenshot](https://raw.githubusercontent.com/robinmetral/gatsby-starter-under-construction/master/20190414-lighthouse-screenshot.png)
 
@@ -35,34 +35,34 @@ Performance is only hindered by Google Fonts being hosted on Google's CDN.
 
 If you don't need to dynamically change typefaces, consider self-hosting webfonts. I recommend [typefaces](https://github.com/KyleAMathews/typefaces) by Kyle Matthews.
 
-## :abc: Built-in Google Fonts support
+### :abc: Built-in Google Fonts support
 
 The Google Font(s) you choose in `gatsby-config.js` will be dynamically imported from Google's CDN.
 
-## :nail_care: CSS3 background patterns
+### :nail_care: CSS3 background patterns
 
 Choose from a selection of [CSS3 background patterns](https://github.com/LeaVerou/css3patterns) by Lea Verou.
 
 The available patterns can be found [here](https://gatsby-starter-under-construction.netlify.com/patterns)
 
-## :link: Social links
+### :link: Social links
 
 Dynamically render social icons with Jake Trent's [react-social-icons](https://github.com/jaketrent/react-social-icons).
 
-## :dizzy: Transitions
+### :dizzy: Transitions
 
 Transitions on page rendering with `react-transition-group`.
 
 ---
 
-# :wrench: Usage
+## :wrench: Usage
 
-## :nut_and_bolt: Dependencies
+### :nut_and_bolt: Dependencies
 
 - npm or yarn
 - gatsby
 
-## :arrow_down: Install
+### :arrow_down: Install
 
 1. Clone the repository into `my-gatsby-site`
 ```
@@ -81,8 +81,7 @@ cd my-gatsby-site
 gatsby develop
 ```
 
-
-## :zap: Setup
+### :zap: Setup
 
 Edit the `siteMetadata` variables in `gatsby-config.js`:
 
@@ -96,7 +95,7 @@ Edit the `siteMetadata` variables in `gatsby-config.js`:
 | `textFont` | yes | string (Google Font name) | The message's Google Font |
 | `social` | yes | array of url strings | Array of social links, powered by `react-social-icons` |
 
-### Example setup:
+Example setup:
 
 ```javascript
 module.exports = {
@@ -116,6 +115,6 @@ module.exports = {
 }
 ```
 
-## :moneybag: Licence
+### :moneybag: Licence
 
 MIT
