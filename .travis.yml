@@ -22,4 +22,4 @@ jobs:
       script:
         - gatsby build
       after_success:
-        - yarn run audit --perf 99 --pwa 99 --a11y 99 --bp 99 --seo 99 "$(wait-for-netlify-preview)"
+        - yarn run audit --perf 90 --pwa 100 --a11y 90 --bp 90 --seo 90 --runner=wpt "$(wait-for-netlify-preview)"
