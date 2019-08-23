@@ -1,5 +1,25 @@
 language: node_js
 node_js:
   - 12.9.0
-install: yarn
-script: gatsby build
+
+cache: yarn
+
+notifications:
+  email: false
+
+install:
+  - yarn install --frozen-lockfile
+
+jobs:
+  include:
+    - stage: test
+      script:
+        - yarn lint
+        - yarn test
+        - yarn coverage
+
+    - stage: build
+      script:
+        - gatsby build
+      after_success:
+        - yarn run audit --perf 99 --pwa 99 --a11y 99 --bp 99 --seo 99 "$(wait-for-netlify-preview)"
