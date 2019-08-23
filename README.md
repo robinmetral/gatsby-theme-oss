@@ -1,5 +1,7 @@
 # :construction: Under Construction
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/robinmetral/gatsby-starter-under-construction.svg)](https://greenkeeper.io/)
+
 Blazing fast [Gatsby](https://gatsbyjs.org) starter with a blazing quick setup.
 
 Deploy in minutes and use as a temporary landing page while you build your Gatsby site.
