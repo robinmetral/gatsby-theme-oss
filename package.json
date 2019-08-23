@@ -21,9 +21,9 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "lint": "echo('Set up linting')",
-    "test": "echo('Write tests')",
-    "coverage": "echo('Set up coverage')",
+    "lint": "echo \"Set up linting\"",
+    "test": "echo \"Write tests\"",
+    "coverage": "echo \"Set up code coverage\"",
     "audit": "lighthousebot"
   },
   "repository": {
