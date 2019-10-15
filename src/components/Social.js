@@ -10,6 +10,7 @@ const Social = (props) => (
     <ul
       style={{
       listStyleType: "none",
+      padding: "0",
       display: "flex",
       ...defaultStyle,
       ...transitionStyles[state],
