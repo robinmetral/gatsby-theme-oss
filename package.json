@@ -21,7 +21,10 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "start": "npm run develop"
+    "lint": "echo \"Set up linting\"",
+    "test": "echo \"Write tests\"",
+    "coverage": "echo \"Set up code coverage\"",
+    "audit": "lighthousebot"
   },
   "repository": {
     "type": "git",
@@ -29,5 +32,9 @@
   },
   "bugs": {
     "url": "https://github.com/robinmetral/gatsby-starter-under-construction/issues"
+  },
+  "devDependencies": {
+    "lighthousebot": "https://github.com/GoogleChromeLabs/lighthousebot",
+    "wait-for-netlify-preview": "^1.2.1"
   }
 }
