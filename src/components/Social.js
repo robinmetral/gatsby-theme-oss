@@ -1,33 +1,34 @@
-import React from "react"
-import { SocialIcon } from "react-social-icons"
-import Transition from "react-transition-group/Transition"
+import React from "react";
+import { SocialIcon } from "react-social-icons";
+import Transition from "react-transition-group/Transition";
 
-import { defaultStyle, transitionStyles } from "../transitions"
+import { defaultStyle, transitionStyles } from "../transitions";
 
-const Social = (props) => (
+const Social = props => (
   <Transition in appear={true} timeout={2000}>
-    {(state) => (
-    <ul
-      style={{
-      listStyleType: "none",
-      padding: "0",
-      display: "flex",
-      ...defaultStyle,
-      ...transitionStyles[state],
-      }}
-    >
-      {
-      props.social.map(icon => (
-      <li
+    {state => (
+      <ul
         style={{
-        padding: "0.5rem",
+          listStyleType: "none",
+          padding: "0",
+          display: "flex",
+          ...defaultStyle,
+          ...transitionStyles[state]
         }}
-      ><SocialIcon url={icon} bgColor={props.color} /></li>
-      ) )
-      }
-    </ul>
+      >
+        {props.social.map((icon, key) => (
+          <li
+            key={key}
+            style={{
+              padding: "0.5rem"
+            }}
+          >
+            <SocialIcon url={icon} bgColor={props.color} />
+          </li>
+        ))}
+      </ul>
     )}
   </Transition>
-)
+);
 
-export default Social
+export default Social;
