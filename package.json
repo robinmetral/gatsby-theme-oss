@@ -21,7 +21,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "lint": "echo \"Set up linting\"",
+    "lint": "eslint --ignore-path .gitignore . --ext js",
     "test": "echo \"Write tests\"",
     "coverage": "echo \"Set up code coverage\"",
     "audit": "lighthousebot"
@@ -34,9 +34,11 @@
     "url": "https://github.com/robinmetral/gatsby-starter-under-construction/issues"
   },
   "devDependencies": {
-    "eslint-config-react-app": "^5.0.2",
+    "eslint-config-prettier": "^6.4.0",
     "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
     "lighthousebot": "https://github.com/GoogleChromeLabs/lighthousebot",
+    "prettier": "^1.18.2",
     "wait-for-netlify-preview": "^1.2.1"
   }
 }
