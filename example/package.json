@@ -2,5 +2,15 @@
   "name": "example",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build"
+  },
+  "dependencies": {
+    "gatsby": "^2.17.4",
+    "gatsby-theme-under-construction": "1.0.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  }
 }

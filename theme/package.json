@@ -1,16 +1,15 @@
 {
   "name": "gatsby-theme-under-construction",
   "description": "Blazing fast \"Under Construction\" page with a blazing quick setup.",
-  "version": "1.1.0",
+  "version": "1.0.0",
+  "main": "gatsby-config.js",
   "author": "Robin Métral <robin@metral.ch>",
   "dependencies": {
     "gatsby": "^2.17.4",
-    "gatsby-plugin-manifest": "^2.0.13",
-    "gatsby-plugin-offline": "^2.0.21",
-    "gatsby-plugin-react-helmet": "^3.0.5",
+    "gatsby-plugin-react-helmet": "^3.1.13",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
-    "react-helmet": "^5.2.0",
+    "react-helmet": "^5.2.1",
     "react-social-icons": "^4.1.0",
     "react-transition-group": "^4.2.2"
   },
@@ -40,5 +39,10 @@
     "lighthousebot": "https://github.com/GoogleChromeLabs/lighthousebot",
     "prettier": "^1.18.2",
     "wait-for-netlify-preview": "^1.2.1"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.17.4",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
   }
 }
