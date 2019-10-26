@@ -22,7 +22,7 @@ jobs:
       script: yarn build
 
     - stage: release
-      script: skip
+      script: skip
       before_deploy:
         - cd theme
       deploy:
