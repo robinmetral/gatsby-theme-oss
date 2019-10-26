@@ -7,21 +7,15 @@ cache: yarn
 notifications:
   email: false
 
-install:
-  - yarn install
+install: yarn install
 
 jobs:
   include:
     - stage: lint
-      script:
-        - yarn lint
+      script: yarn lint
 
     - stage: test
-      script:
-        - yarn test
+      script: yarn test
 
     - stage: build
-      script:
-        - yarn workspace gatsby-theme-under-construction build
-      after_success:
-        - yarn workspace gatsby-theme-under-construction audit --perf 90 --pwa 100 --a11y 90 --bp 90 --seo 90 "$(wait-for-netlify-preview)"
+      script: yarn build
