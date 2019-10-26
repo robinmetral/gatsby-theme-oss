@@ -8,7 +8,7 @@ notifications:
   email: false
 
 install:
-  - yarn
+  - yarn install
 
 jobs:
   include:
