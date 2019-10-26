@@ -8,7 +8,7 @@ notifications:
   email: false
 
 install:
-  - yarn install
+  - yarn
 
 jobs:
   include:
@@ -18,12 +18,10 @@ jobs:
 
     - stage: test
       script:
-        - yarn lint
         - yarn test
-        - yarn coverage
 
     - stage: build
       script:
-        - gatsby build
+        - yarn workspace gatsby-theme-under-construction build
       after_success:
-        - yarn run audit --perf 90 --pwa 100 --a11y 90 --bp 90 --seo 90 "$(wait-for-netlify-preview)"
+        - yarn workspace gatsby-theme-under-construction audit --perf 90 --pwa 100 --a11y 90 --bp 90 --seo 90 "$(wait-for-netlify-preview)"

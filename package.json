@@ -3,5 +3,9 @@
   "workspaces": [
     "theme",
     "example"
-  ]
+  ],
+  "scripts": {
+    "lint": "yarn workspace gatsby-theme-under-construction lint",
+    "test": "yarn workspace gatsby-theme-under-construction test"
+  }
 }
