@@ -1,6 +1,7 @@
 language: node_js
 node_js:
-  - 12.9.0
+  - 10
+  - 12
 
 cache: yarn
 
@@ -20,11 +21,13 @@ jobs:
     - stage: build
       script: yarn build
 
-    - stage: publish
+    - stage: release
       script: skip
+      before_deploy:
+        - cd theme
       deploy:
-        provider: npm
-        email: $NPM_EMAIL
-        api_key: $NPM_TOKEN
+        provider: script
+        skip_cleanup: true
+        script: npx semantic-release
         on:
           branch: master
