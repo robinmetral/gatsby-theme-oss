@@ -7,23 +7,24 @@ cache: yarn
 notifications:
   email: false
 
-install:
-  - yarn install
+install: yarn install
 
 jobs:
   include:
     - stage: lint
-      script:
-        - yarn lint
+      script: yarn lint
 
     - stage: test
-      script:
-        - yarn lint
-        - yarn test
-        - yarn coverage
+      script: yarn test
 
     - stage: build
-      script:
-        - gatsby build
-      after_success:
-        - yarn run audit --perf 90 --pwa 100 --a11y 90 --bp 90 --seo 90 "$(wait-for-netlify-preview)"
+      script: yarn build
+
+    - stage: publish
+      script: skip
+      deploy:
+        provider: npm
+        email: $NPM_EMAIL
+        api_key: $NPM_TOKEN
+        on:
+          branch: master

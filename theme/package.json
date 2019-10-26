@@ -1,0 +1,47 @@
+{
+  "name": "gatsby-theme-under-construction",
+  "description": "Blazing fast Under Construction page with a blazing quick setup",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "gatsby-config.js",
+  "author": "Robin Métral <robin@metral.ch>",
+  "dependencies": {
+    "gatsby-plugin-manifest": "^2.2.23",
+    "gatsby-plugin-offline": "^3.0.16",
+    "gatsby-plugin-react-helmet": "^3.1.13",
+    "react-helmet": "^5.2.1",
+    "react-social-icons": "^4.1.0",
+    "react-transition-group": "^4.2.2"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore . --ext js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robinmetral/gatsby-theme-under-construction"
+  },
+  "bugs": {
+    "url": "https://github.com/robinmetral/gatsby-theme-under-construction/issues"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^4.2.0",
+    "@testing-library/react": "^9.3.0",
+    "babel-jest": "^24.9.0",
+    "babel-preset-gatsby": "^0.2.20",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^24.9.0",
+    "prettier": "^1.18.2"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.17.4",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  }
+}

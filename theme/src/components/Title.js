@@ -22,6 +22,7 @@ const Title = props => (
             margin: "0",
             textAlign: "center"
           }}
+          data-testid="title"
         >
           {props.title}
         </h1>

@@ -1,6 +1,6 @@
 # :construction: Under Construction
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/robinmetral/gatsby-starter-under-construction.svg)](https://greenkeeper.io/)
+[![Greenkeeper badge](https://badges.greenkeeper.io/robinmetral/gatsby-theme-under-construction.svg)](https://greenkeeper.io/)
 
 Blazing fast [Gatsby](https://gatsbyjs.org) starter with a blazing quick setup.
 
@@ -31,7 +31,7 @@ See [Setup](#zap-setup) for instructions.
 
 ### :trophy: Lighthouse scores
 
-![Lightouse scores screenshot](https://raw.githubusercontent.com/robinmetral/gatsby-starter-under-construction/master/20190414-lighthouse-screenshot.png)
+![Lightouse scores screenshot](https://raw.githubusercontent.com/robinmetral/gatsby-theme-under-construction/master/20190414-lighthouse-screenshot.png)
 
 Performance is only hindered by Google Fonts being hosted on Google's CDN.
 
@@ -45,7 +45,7 @@ The Google Font(s) you choose in `gatsby-config.js` will be dynamically imported
 
 Choose from a selection of [CSS3 background patterns](https://github.com/LeaVerou/css3patterns) by Lea Verou.
 
-The available patterns can be found [here](https://gatsby-starter-under-construction.netlify.com/patterns)
+The available patterns can be found [here](https://gatsby-theme-under-construction.netlify.com/patterns)
 
 ### :link: Social links
 
@@ -67,18 +67,20 @@ Transitions on page rendering with `react-transition-group`.
 ### :arrow_down: Install
 
 1. Clone the repository into `my-gatsby-site`
+
 ```
-git clone https://github.com/robinmetral/gatsby-starter-under-construction.git my-gatsby-site
+git clone https://github.com/robinmetral/gatsby-theme-under-construction.git my-gatsby-site
 cd my-gatsby-site
 ```
 
 2. Install dependencies
 
-| npm | yarn |
-------|-------
-| `npm install` | `yarn install`  |
+| npm           | yarn           |
+| ------------- | -------------- |
+| `npm install` | `yarn install` |
 
 3. Start the local server
+
 ```
 gatsby develop
 ```
@@ -87,23 +89,24 @@ gatsby develop
 
 Edit the `siteMetadata` variables in `gatsby-config.js`:
 
-| variable | required? | type | value |
-| --- | --- | --- | --- |
-| `title` | yes | string (any) | The page's heading and your site's `<title>` |
-| `message` | yes | string (any) | The message to display below the heading |
-| `pattern` | yes | string (pattern name) | The CSS3 background pattern. See all available patterns at `/patterns` |
-| `color` | yes | string (hex color code with #) | The color for text and social icons |
-| `headingFont` | yes | string (Google Font name) | The heading's Google Font |
-| `textFont` | yes | string (Google Font name) | The message's Google Font |
-| `social` | yes | array of url strings | Array of social links, powered by `react-social-icons` |
+| variable      | required? | type                           | value                                                                  |
+| ------------- | --------- | ------------------------------ | ---------------------------------------------------------------------- |
+| `title`       | yes       | string (any)                   | The page's heading and your site's `<title>`                           |
+| `message`     | yes       | string (any)                   | The message to display below the heading                               |
+| `pattern`     | yes       | string (pattern name)          | The CSS3 background pattern. See all available patterns at `/patterns` |
+| `color`       | yes       | string (hex color code with #) | The color for text and social icons                                    |
+| `headingFont` | yes       | string (Google Font name)      | The heading's Google Font                                              |
+| `textFont`    | yes       | string (Google Font name)      | The message's Google Font                                              |
+| `social`      | yes       | array of url strings           | Array of social links, powered by `react-social-icons`                 |
 
 Example setup:
 
 ```javascript
 module.exports = {
   siteMetadata: {
-    title: "Hi, looking for a starter? 🔎",
-    message: "🚧 Host me on your domain while you build your new Gatsby site! (or keep me longer, that's fine too) 👷",
+    title: "Hi, looking for a starter? 🔎",
+    message:
+      "🚧 Host me on your domain while you build your new Gatsby site! (or keep me longer, that's fine too) 👷",
     pattern: "Seigaiha",
     // choose a color for your text and icons
     color: "#4c4c4c",
@@ -112,9 +115,12 @@ module.exports = {
     // choose a Google Font for the message
     textFont: "Montserrat",
     // display social icon links by adding your social urls to the array
-    social: ["https://github.com/robinmetral/gatsby-starter-under-construction", "https://twitter.com/robinmetral"],
-  },
-}
+    social: [
+      "https://github.com/robinmetral/gatsby-theme-under-construction",
+      "https://twitter.com/robinmetral"
+    ]
+  }
+};
 ```
 
 ### :moneybag: Licence
