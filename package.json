@@ -1,44 +1,7 @@
 {
-  "name": "gatsby-theme-under-construction",
-  "description": "Blazing fast \"Under Construction\" page with a blazing quick setup.",
-  "version": "1.1.0",
-  "author": "Robin Métral <robin@metral.ch>",
-  "dependencies": {
-    "gatsby": "^2.17.4",
-    "gatsby-plugin-manifest": "^2.0.13",
-    "gatsby-plugin-offline": "^2.0.21",
-    "gatsby-plugin-react-helmet": "^3.0.5",
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
-    "react-helmet": "^5.2.0",
-    "react-social-icons": "^4.1.0",
-    "react-transition-group": "^4.2.2"
-  },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "lint": "eslint --ignore-path .gitignore . --ext js",
-    "test": "echo \"Write tests\"",
-    "coverage": "echo \"Set up code coverage\"",
-    "audit": "lighthousebot"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/robinmetral/gatsby-starter-under-construction"
-  },
-  "bugs": {
-    "url": "https://github.com/robinmetral/gatsby-starter-under-construction/issues"
-  },
-  "devDependencies": {
-    "eslint-config-prettier": "^6.4.0",
-    "eslint-plugin-prettier": "^3.1.1",
-    "eslint-plugin-react": "^7.16.0",
-    "lighthousebot": "https://github.com/GoogleChromeLabs/lighthousebot",
-    "prettier": "^1.18.2",
-    "wait-for-netlify-preview": "^1.2.1"
-  }
+  "private": true,
+  "workspaces": [
+    "theme",
+    "example"
+  ]
 }
