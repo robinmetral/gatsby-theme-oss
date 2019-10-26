@@ -6,9 +6,20 @@
     "example"
   ],
   "scripts": {
+    "commit": "git-cz",
     "lint": "yarn workspace gatsby-theme-under-construction lint",
     "test": "yarn workspace gatsby-theme-under-construction test",
     "develop": "yarn workspace example develop",
     "build": "yarn workspace example build"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "devDependencies": {
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.0.2",
+    "husky": "^3.0.9"
   }
 }
