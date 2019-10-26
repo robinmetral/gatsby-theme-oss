@@ -2,6 +2,7 @@
   "name": "gatsby-theme-under-construction",
   "description": "Blazing fast Under Construction page with a blazing quick setup",
   "version": "1.0.0",
+  "license": "MIT",
   "main": "gatsby-config.js",
   "author": "Robin Métral <robin@metral.ch>",
   "dependencies": {
@@ -15,17 +16,16 @@
   "keywords": [
     "gatsby"
   ],
-  "license": "MIT",
   "scripts": {
     "lint": "eslint --ignore-path .gitignore . --ext js",
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/robinmetral/gatsby-starter-under-construction"
+    "url": "https://github.com/robinmetral/gatsby-theme-under-construction"
   },
   "bugs": {
-    "url": "https://github.com/robinmetral/gatsby-starter-under-construction/issues"
+    "url": "https://github.com/robinmetral/gatsby-theme-under-construction/issues"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^4.2.0",
