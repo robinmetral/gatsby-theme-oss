@@ -1,10 +1,12 @@
 {
   "name": "gatsby-theme-under-construction",
-  "description": "Blazing fast \"Under Construction\" page with a blazing quick setup.",
+  "description": "Blazing fast Under Construction page with a blazing quick setup",
   "version": "1.0.0",
   "main": "gatsby-config.js",
   "author": "Robin Métral <robin@metral.ch>",
   "dependencies": {
+    "gatsby-plugin-manifest": "^2.2.23",
+    "gatsby-plugin-offline": "^3.0.16",
     "gatsby-plugin-react-helmet": "^3.1.13",
     "react-helmet": "^5.2.1",
     "react-social-icons": "^4.1.0",
