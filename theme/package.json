@@ -5,10 +5,7 @@
   "main": "gatsby-config.js",
   "author": "Robin Métral <robin@metral.ch>",
   "dependencies": {
-    "gatsby": "^2.17.4",
     "gatsby-plugin-react-helmet": "^3.1.13",
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
     "react-helmet": "^5.2.1",
     "react-social-icons": "^4.1.0",
     "react-transition-group": "^4.2.2"
@@ -36,6 +33,7 @@
     "eslint-config-prettier": "^6.4.0",
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-react": "^7.16.0",
+    "gatsby-plugin-page-creator": "^2.1.27",
     "lighthousebot": "https://github.com/GoogleChromeLabs/lighthousebot",
     "prettier": "^1.18.2",
     "wait-for-netlify-preview": "^1.2.1"
