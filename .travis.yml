@@ -21,7 +21,8 @@ jobs:
       script: yarn build
 
     - stage: publish
-      script: skip
+      before_deploy:
+        - cd theme
       deploy:
         provider: npm
         email: $NPM_EMAIL
