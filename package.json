@@ -6,16 +6,26 @@
     "example"
   ],
   "scripts": {
-    "lint": "yarn workspace gatsby-theme-dev lint",
-    "test": "yarn workspace gatsby-theme-dev test",
+    "lint": "eslint --ignore-path .gitignore . --ext js",
+    "test": "jest",
     "develop": "yarn workspace example develop",
     "build": "yarn workspace example build"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
     "@commitlint/config-conventional": "^8.2.0",
+    "@testing-library/jest-dom": "^4.2.0",
+    "@testing-library/react": "^9.3.0",
+    "babel-jest": "^24.9.0",
+    "babel-preset-gatsby": "^0.2.20",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
     "husky": "^3.0.9",
-    "lerna": "^3.18.3"
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^24.9.0",
+    "lerna": "^3.18.3",
+    "prettier": "^1.18.2"
   },
   "husky": {
     "hooks": {
