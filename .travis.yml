@@ -1,7 +1,8 @@
+# don't build tags, it's redundant
+if: tag IS blank
+
 language: node_js
-node_js:
-  - 10
-  - 12
+node_js: 12
 
 cache: yarn
 
@@ -22,12 +23,6 @@ jobs:
       script: yarn build
 
     - stage: release
-      script: skip
-      before_deploy:
-        - cd theme
-      deploy:
-        provider: script
-        skip_cleanup: true
-        script: npx semantic-release
-        on:
-          branch: master
+      # only run on master branch
+      if: NOT type = pull_request AND branch = master
+      script: yarn release
