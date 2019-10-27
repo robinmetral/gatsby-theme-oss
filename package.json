@@ -7,8 +7,8 @@
   ],
   "scripts": {
     "commit": "git-cz",
-    "lint": "yarn workspace gatsby-theme-under-construction lint",
-    "test": "yarn workspace gatsby-theme-under-construction test",
+    "lint": "yarn workspace gatsby-theme-dev lint",
+    "test": "yarn workspace gatsby-theme-dev test",
     "develop": "yarn workspace example develop",
     "build": "yarn workspace example build"
   },

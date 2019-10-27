@@ -1,1 +1,1 @@
-This is the demo for `gatsby-theme-under-construction`.
+This is the demo for `gatsby-theme-dev`.

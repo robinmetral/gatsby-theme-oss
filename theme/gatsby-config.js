@@ -18,7 +18,7 @@ module.exports = ({
       titleFont: titleFont || "Righteous",
       messageFont: messageFont || "Roboto",
       social: social || [
-        "https://github.com/robinmetral/gatsby-theme-under-construction",
+        "https://github.com/robinmetral/gatsby-theme-dev",
         "https://www.robinmetral.com"
       ]
     },

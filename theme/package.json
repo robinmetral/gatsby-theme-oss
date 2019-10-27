@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-theme-under-construction",
+  "name": "gatsby-theme-dev",
   "description": "Blazing fast Under Construction page with a blazing quick setup",
   "version": "0.0.0-dev",
   "license": "MIT",
@@ -22,10 +22,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/robinmetral/gatsby-theme-under-construction"
+    "url": "https://github.com/robinmetral/gatsby-theme-dev"
   },
   "bugs": {
-    "url": "https://github.com/robinmetral/gatsby-theme-under-construction/issues"
+    "url": "https://github.com/robinmetral/gatsby-theme-dev/issues"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^4.2.0",

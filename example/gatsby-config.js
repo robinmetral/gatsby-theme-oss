@@ -1,7 +1,7 @@
 module.exports = {
   plugins: [
     {
-      resolve: "gatsby-theme-under-construction",
+      resolve: "gatsby-theme-dev",
       options: {
         title: "Under Construction",
         message:
@@ -11,7 +11,7 @@ module.exports = {
         titleFont: "Righteous",
         messageFont: "Roboto",
         social: [
-          "https://github.com/robinmetral/gatsby-theme-under-construction",
+          "https://github.com/robinmetral/gatsby-theme-dev",
           "https://twitter.com/robinmetral",
           "https://www.robinmetral.com"
         ]
