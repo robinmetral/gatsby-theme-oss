@@ -3,15 +3,15 @@ module.exports = {
     {
       resolve: "gatsby-theme-dev",
       options: {
-        title: "Under Construction",
+        title: "Robin Métral",
         message:
-          "🚧 Host me on your domain while you build your new Gatsby site! (or keep me longer, that's fine too) 👷",
+          "I'm the developer behind gatsby-theme-dev. Check out my other projects on GitHub.",
         pattern: "Arrows",
         color: "#4c4c4c",
         titleFont: "Righteous",
         messageFont: "Roboto",
         social: [
-          "https://github.com/robinmetral/gatsby-theme-dev",
+          "https://github.com/robinmetral",
           "https://twitter.com/robinmetral",
           "https://www.robinmetral.com"
         ]

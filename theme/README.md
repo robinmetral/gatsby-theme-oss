@@ -1,8 +1,6 @@
-# :construction: Under Construction
+# gatsby-theme-dev
 
-Blazing fast [Gatsby](https://gatsbyjs.org) theme with a blazing quick setup.
-
-Deploy in minutes and use as a temporary landing page while you build your Gatsby site.
+A Gatsby theme to showcase your open-source work.
 
 - [:fire: Features](#fire-features)
   - [:rocket: Blazing quick setup](#rocket-blazing-quick-setup)
