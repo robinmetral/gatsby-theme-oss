@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.1](https://github.com/robinmetral/gatsby-theme-dev/compare/gatsby-theme-dev@0.0.0-dev.0...gatsby-theme-dev@0.0.1) (2019-10-27)
+
+
+### Bug Fixes
+
+* **global:** fix version numbers for lerna publish ([#56](https://github.com/robinmetral/gatsby-theme-dev/issues/56)) ([6c3d3f9](https://github.com/robinmetral/gatsby-theme-dev/commit/6c3d3f902090656b337ac1de06c24194eb494b67))
+
+
+
+
+
 # 0.0.0-dev.0 (2019-10-27)
 
 
