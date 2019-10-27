@@ -23,4 +23,5 @@ jobs:
       script: yarn build
 
     - stage: release
+      if: branch = master
       script: yarn release
