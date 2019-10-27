@@ -10,7 +10,8 @@
     "lint:fix": "yarn lint --fix",
     "test": "jest",
     "develop": "yarn workspace example develop",
-    "build": "yarn workspace example build"
+    "build": "yarn workspace example build",
+    "release": "lerna publish"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",

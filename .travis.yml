@@ -23,4 +23,4 @@ jobs:
       script: yarn build
 
     - stage: release
-      script: lerna publish
+      script: yarn release
