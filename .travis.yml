@@ -23,5 +23,6 @@ jobs:
       script: yarn build
 
     - stage: release
-      if: branch = master
+      # only run on master branch
+      if: NOT type = pull_request AND branch = master
       script: yarn release
