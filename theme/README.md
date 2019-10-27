@@ -1,8 +1,6 @@
-# :construction: Under Construction
+# gatsby-theme-dev
 
-Blazing fast [Gatsby](https://gatsbyjs.org) theme with a blazing quick setup.
-
-Deploy in minutes and use as a temporary landing page while you build your Gatsby site.
+A Gatsby theme to showcase your open-source work.
 
 - [:fire: Features](#fire-features)
   - [:rocket: Blazing quick setup](#rocket-blazing-quick-setup)
@@ -29,7 +27,7 @@ See [Setup](#zap-setup) for instructions.
 
 ### :trophy: Lighthouse scores
 
-![Lightouse scores screenshot](https://raw.githubusercontent.com/robinmetral/gatsby-theme-under-construction/master/20190414-lighthouse-screenshot.png)
+![Lightouse scores screenshot](https://raw.githubusercontent.com/robinmetral/gatsby-theme-dev/master/20190414-lighthouse-screenshot.png)
 
 Performance is only hindered by Google Fonts being hosted on Google's CDN.
 
@@ -43,7 +41,7 @@ The Google Font(s) you choose in `gatsby-config.js` will be dynamically imported
 
 Choose from a selection of [CSS3 background patterns](https://github.com/LeaVerou/css3patterns) by Lea Verou.
 
-The available patterns can be found [here](https://gatsby-theme-under-construction.netlify.com/patterns)
+The available patterns can be found [here](https://gatsby-theme-dev.netlify.com/patterns)
 
 ### :link: Social links
 
@@ -67,7 +65,7 @@ Transitions on page rendering with `react-transition-group`.
 1. Clone the repository into `my-gatsby-site`
 
 ```
-git clone https://github.com/robinmetral/gatsby-theme-under-construction.git my-gatsby-site
+git clone https://github.com/robinmetral/gatsby-theme-dev.git my-gatsby-site
 cd my-gatsby-site
 ```
 
@@ -114,7 +112,7 @@ module.exports = {
     textFont: "Montserrat",
     // display social icon links by adding your social urls to the array
     social: [
-      "https://github.com/robinmetral/gatsby-theme-under-construction",
+      "https://github.com/robinmetral/gatsby-theme-dev",
       "https://twitter.com/robinmetral"
     ]
   }

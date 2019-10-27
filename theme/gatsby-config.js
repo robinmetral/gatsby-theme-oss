@@ -9,18 +9,13 @@ module.exports = ({
 }) => {
   return {
     siteMetadata: {
-      title: title || "Under Construction",
-      message:
-        message ||
-        "Blazing fast Under Construction page with a blazing quick setup",
+      title: title || "Jane Doe",
+      message: message || "I'm a developer",
       pattern: pattern || "Arrows",
       color: color || "#4c4c4c",
       titleFont: titleFont || "Righteous",
       messageFont: messageFont || "Roboto",
-      social: social || [
-        "https://github.com/robinmetral/gatsby-theme-under-construction",
-        "https://www.robinmetral.com"
-      ]
+      social: social || ["https://github.com/robinmetral/gatsby-theme-dev"]
     },
     plugins: [
       {
