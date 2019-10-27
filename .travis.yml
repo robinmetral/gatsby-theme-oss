@@ -1,7 +1,16 @@
+# don't build tags, it's redundant
+if: tag IS blank
+
 language: node_js
+
 node_js:
-  - 10
   - 12
+  - 10
+
+env:
+  global:
+    - NO_UPDATE_NOTIFIER=1
+    - NODE_NO_WARNINGS=1
 
 cache: yarn
 
@@ -22,12 +31,4 @@ jobs:
       script: yarn build
 
     - stage: release
-      script: skip
-      before_deploy:
-        - cd theme
-      deploy:
-        provider: script
-        skip_cleanup: true
-        script: npx semantic-release
-        on:
-          branch: master
+      script: lerna publish
