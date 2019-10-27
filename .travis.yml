@@ -7,11 +7,6 @@ node_js:
   - 12
   - 10
 
-env:
-  global:
-    - NO_UPDATE_NOTIFIER=1
-    - NODE_NO_WARNINGS=1
-
 cache: yarn
 
 notifications:
