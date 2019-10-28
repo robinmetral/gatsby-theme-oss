@@ -1,7 +1,7 @@
 {
   "version": "independent",
   "npmClient": "yarn",
-  "packages": ["theme"],
+  "useWorkspaces": true,
   "command": {
     "publish": {
       "allowBranch": "master",

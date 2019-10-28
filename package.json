@@ -3,14 +3,14 @@
   "license": "MIT",
   "workspaces": [
     "theme",
-    "example"
+    "starter"
   ],
   "scripts": {
     "lint": "eslint --ignore-path .gitignore . --ext js",
     "lint:fix": "yarn lint --fix",
     "test": "jest",
-    "develop": "yarn workspace example develop",
-    "build": "yarn workspace example build",
+    "develop": "yarn workspace gatsby-starter-dev develop",
+    "build": "yarn workspace gatsby-starter-dev build",
     "release": "lerna publish"
   },
   "devDependencies": {
