@@ -1,6 +1,7 @@
 {
   "name": "gatsby-starter-dev",
   "version": "0.0.0",
+  "private": true,
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -9,7 +10,7 @@
   },
   "dependencies": {
     "gatsby": "^2.17.4",
-    "gatsby-theme-dev": "^0.0.1",
+    "gatsby-theme-dev": "^0.0.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0"
   }

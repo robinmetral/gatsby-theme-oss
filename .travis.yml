@@ -21,8 +21,7 @@ jobs:
 
     - stage: build
       script: yarn build
-
-    - stage: release
-      # only run on master branch
-      if: NOT type = pull_request AND branch = master
-      script: yarn release
+#    - stage: release
+#      # only run on master branch
+#      if: NOT type = pull_request AND branch = master
+#      script: yarn release
