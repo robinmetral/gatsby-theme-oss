@@ -1,9 +1,8 @@
 import React from "react";
 import { graphql } from "gatsby";
+import { Styled } from "theme-ui"; // the jsx fragment doesn't work here
 import { Helmet } from "react-helmet";
 
-import Title from "../components/Title";
-import Subtitle from "../components/Subtitle";
 import Repos from "../components/Repos";
 
 const IndexPage = ({ data }) => {
@@ -18,8 +17,8 @@ const IndexPage = ({ data }) => {
         <meta name="description" content={title + "&middot" + subtitle} />
         <title>{title}</title>
       </Helmet>
-      <Title title={title} />
-      <Subtitle subtitle={subtitle} />
+      <Styled.h1 data-testid="title">{title}</Styled.h1>
+      <Styled.p data-testid="subtitle">{subtitle}</Styled.p>
       {hasPinnedItems ? (
         <Repos repos={items.nodes} />
       ) : (
