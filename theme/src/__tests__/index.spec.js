@@ -1,8 +1,8 @@
 import React from "react";
 import { render } from "@testing-library/react";
 
-import IndexPage from "./index";
-import INDEX_PAGE_QUERY from "./__fixtures__/index-page-query";
+import IndexPage from "../pages/index";
+import INDEX_PAGE_QUERY from "../__fixtures__/index-page-query";
 
 describe("index page spec", () => {
   it("should render the title", () => {
