@@ -1,21 +1,8 @@
-module.exports = ({
-  title,
-  message,
-  pattern,
-  color,
-  titleFont,
-  messageFont,
-  social
-}) => {
+module.exports = ({ title, subtitle, color }) => {
   return {
     siteMetadata: {
       title: title || "Jane Doe",
-      message: message || "I'm a developer",
-      pattern: pattern || "Arrows",
-      color: color || "#4c4c4c",
-      titleFont: titleFont || "Righteous",
-      messageFont: messageFont || "Roboto",
-      social: social || ["https://github.com/robinmetral/gatsby-theme-oss"]
+      subtitle: subtitle || "I'm a developer"
     },
     plugins: [
       {
@@ -24,8 +11,8 @@ module.exports = ({
           name: title,
           short_name: title,
           start_url: "/",
-          background_color: color,
-          theme_color: color,
+          background_color: color || "#fff",
+          theme_color: color || "#fff",
           display: "standalone",
           icon: "icon.png"
         }

@@ -1,1 +1,3 @@
-This is the demo for `gatsby-theme-oss`.
+# gatsby-starter-oss
+
+This is an demo site using `gatsby-theme-oss`.
