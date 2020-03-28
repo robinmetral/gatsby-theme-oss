@@ -9,7 +9,7 @@ export default merge({}, baseTheme, {
   },
   fonts: {
     body: "Helvetica, Arial, sans-serif",
-    heading: "'AnonymousPro', monospace"
+    heading: "Helvetica, Arial, sans-serif"
   },
   fontSizes: [14, 16, 24, 36],
   lineHeights: {
