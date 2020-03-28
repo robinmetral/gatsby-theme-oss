@@ -30,7 +30,8 @@ module.exports = ({ title, subtitle, github_username, github_token }) => {
         }
       },
       "gatsby-plugin-offline",
-      "gatsby-plugin-react-helmet"
+      "gatsby-plugin-react-helmet",
+      `gatsby-plugin-theme-ui`
     ]
   };
 };

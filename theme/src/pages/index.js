@@ -2,39 +2,30 @@ import React from "react";
 import { graphql } from "gatsby";
 import { Helmet } from "react-helmet";
 
+import Title from "../components/Title";
+import Message from "../components/Message";
+import Repos from "../components/Repos";
+
 const IndexPage = ({ data }) => {
   const { title, subtitle } = data.site.siteMetadata;
   const { hasPinnedItems, items } = data.github.user.itemShowcase;
 
   return (
-    <div>
+    <>
       <Helmet>
         <html lang="en" />
         <meta charSet="utf-8" />
         <meta name="description" content={title + "&middot" + subtitle} />
         <title>{title}</title>
       </Helmet>
-      <h1>{title}</h1>
-      <p>{subtitle}</p>
+      <Title title={title} />
+      <Message message={subtitle} />
       {hasPinnedItems ? (
-        <ul>
-          {items.nodes.map(repo => (
-            <li key={repo.nameWithOwner}>
-              <a href={repo.url}>
-                <p>{repo.nameWithOwner}</p>
-                <p>{repo.description}</p>
-                <p style={{ backgroundColor: repo.primaryLanguage.color }}>
-                  Language: {repo.primaryLanguage.name}
-                </p>
-                <p>Stars: {repo.stargazers.totalCount}</p>
-              </a>
-            </li>
-          ))}
-        </ul>
+        <Repos repos={items.nodes} />
       ) : (
         <p>Pin repositories on GitHub to showcase them here!</p>
       )}
-    </div>
+    </>
   );
 };
 
@@ -59,10 +50,6 @@ export const query = graphql`
                 description
                 primaryLanguage {
                   color
-                  name
-                }
-                stargazers {
-                  totalCount
                 }
                 url
               }
