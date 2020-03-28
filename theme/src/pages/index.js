@@ -3,7 +3,7 @@ import { graphql } from "gatsby";
 import { Helmet } from "react-helmet";
 
 import Title from "../components/Title";
-import Message from "../components/Message";
+import Subtitle from "../components/Subtitle";
 import Repos from "../components/Repos";
 
 const IndexPage = ({ data }) => {
@@ -19,7 +19,7 @@ const IndexPage = ({ data }) => {
         <title>{title}</title>
       </Helmet>
       <Title title={title} />
-      <Message message={subtitle} />
+      <Subtitle subtitle={subtitle} />
       {hasPinnedItems ? (
         <Repos repos={items.nodes} />
       ) : (
