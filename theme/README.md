@@ -1,4 +1,4 @@
-# gatsby-theme-dev
+# gatsby-theme-oss
 
 A Gatsby theme to showcase your open-source work.
 
@@ -27,7 +27,7 @@ See [Setup](#zap-setup) for instructions.
 
 ### :trophy: Lighthouse scores
 
-![Lightouse scores screenshot](https://raw.githubusercontent.com/robinmetral/gatsby-theme-dev/master/20190414-lighthouse-screenshot.png)
+![Lightouse scores screenshot](https://raw.githubusercontent.com/robinmetral/gatsby-theme-oss/master/20190414-lighthouse-screenshot.png)
 
 Performance is only hindered by Google Fonts being hosted on Google's CDN.
 
@@ -41,7 +41,7 @@ The Google Font(s) you choose in `gatsby-config.js` will be dynamically imported
 
 Choose from a selection of [CSS3 background patterns](https://github.com/LeaVerou/css3patterns) by Lea Verou.
 
-The available patterns can be found [here](https://gatsby-theme-dev.netlify.com/patterns)
+The available patterns can be found [here](https://gatsby-theme-oss.netlify.com/patterns)
 
 ### :link: Social links
 
@@ -65,7 +65,7 @@ Transitions on page rendering with `react-transition-group`.
 1. Clone the repository into `my-gatsby-site`
 
 ```
-git clone https://github.com/robinmetral/gatsby-theme-dev.git my-gatsby-site
+git clone https://github.com/robinmetral/gatsby-theme-oss.git my-gatsby-site
 cd my-gatsby-site
 ```
 
@@ -112,7 +112,7 @@ module.exports = {
     textFont: "Montserrat",
     // display social icon links by adding your social urls to the array
     social: [
-      "https://github.com/robinmetral/gatsby-theme-dev",
+      "https://github.com/robinmetral/gatsby-theme-oss",
       "https://twitter.com/robinmetral"
     ]
   }

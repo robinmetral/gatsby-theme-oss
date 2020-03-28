@@ -1,11 +1,11 @@
 module.exports = {
   plugins: [
     {
-      resolve: "gatsby-theme-dev",
+      resolve: "gatsby-theme-oss",
       options: {
         title: "Robin Métral",
         message:
-          "I'm the developer behind gatsby-theme-dev. Check out my other projects on GitHub.",
+          "I'm the developer behind gatsby-theme-oss. Check out my other projects on GitHub.",
         pattern: "Arrows",
         color: "#4c4c4c",
         titleFont: "Righteous",

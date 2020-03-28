@@ -1,1 +1,1 @@
-This is the demo for `gatsby-theme-dev`.
+This is the demo for `gatsby-theme-oss`.

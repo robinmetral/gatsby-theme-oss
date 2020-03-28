@@ -15,7 +15,7 @@ module.exports = ({
       color: color || "#4c4c4c",
       titleFont: titleFont || "Righteous",
       messageFont: messageFont || "Roboto",
-      social: social || ["https://github.com/robinmetral/gatsby-theme-dev"]
+      social: social || ["https://github.com/robinmetral/gatsby-theme-oss"]
     },
     plugins: [
       {
