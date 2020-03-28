@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 module.exports = {
   plugins: [
     {
@@ -6,7 +8,8 @@ module.exports = {
         title: "Robin Métral",
         subtitle:
           "I'm the developer behind gatsby-theme-oss. Check out my other projects on GitHub!",
-        color: "pink"
+        github_username: "robinmetral",
+        github_token: process.env.GITHUB_TOKEN
       }
     }
   ]
