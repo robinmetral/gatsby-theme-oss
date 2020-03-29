@@ -5,9 +5,9 @@ module.exports = {
     {
       resolve: "gatsby-theme-oss",
       options: {
-        title: "Robin Métral",
+        title: "Hi, I'm Robin 👋",
         subtitle:
-          "I'm the developer behind gatsby-theme-oss. Check out my other projects on GitHub!",
+          "I'm the developer behind gatsby-theme-oss. Check out my other open-source projects below!",
         github_username: "robinmetral",
         github_token: process.env.GITHUB_TOKEN
       }

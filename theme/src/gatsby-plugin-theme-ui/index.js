@@ -11,15 +11,23 @@ export default merge({}, baseTheme, {
     body: "Helvetica, Arial, sans-serif",
     heading: "Helvetica, Arial, sans-serif"
   },
-  fontSizes: [14, 16, 24, 36],
+  fontSizes: [12, 14, 16, 20, 24, 32, 48, 64],
+  fontWeights: {
+    body: 300,
+    heading: 300,
+    bold: 500
+  },
   lineHeights: {
     body: 1.5,
     heading: 1.125
   },
   space: [0, 4, 8, 16, 32, 64, 128, 256, 512],
-  sizes: [64, 128, 256, 512, 1024],
+  sizes: [64, 128, 256, 512, 768, 960],
   radii: [2, 4, 8, 16, 99999],
   styles: {
+    root: {
+      p: 0
+    },
     a: {
       color: "primary",
       textDecoration: "none"
@@ -27,13 +35,15 @@ export default merge({}, baseTheme, {
     p: {
       fontFamily: "body",
       lineHeight: "body",
-      margin: 0,
+      fontWeight: "body",
+      fontSize: [3, 4],
       textAlign: "center"
     },
     h1: {
       fontFamily: "heading",
       lineHeight: "heading",
-      margin: 0,
+      fontWeight: "heading",
+      fontSize: [5, 6],
       textAlign: "center"
     }
   }
