@@ -3,9 +3,9 @@ import { merge } from "lodash";
 
 export default merge({}, baseTheme, {
   colors: {
-    text: "black",
+    text: "#201e33",
     background: "white",
-    primary: "tomato"
+    primary: "#ff5556"
   },
   fonts: {
     body: "Helvetica, Arial, sans-serif",
@@ -27,12 +27,14 @@ export default merge({}, baseTheme, {
     p: {
       fontFamily: "body",
       lineHeight: "body",
-      margin: 0
+      margin: 0,
+      textAlign: "center"
     },
     h1: {
       fontFamily: "heading",
       lineHeight: "heading",
-      margin: 0
+      margin: 0,
+      textAlign: "center"
     }
   }
 });
