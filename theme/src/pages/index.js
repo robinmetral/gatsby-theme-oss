@@ -4,6 +4,7 @@ import { Styled } from "theme-ui"; // the jsx fragment doesn't work here
 import { Helmet } from "react-helmet";
 
 import Repos from "../components/Repos";
+import IllustrationSvg from "../components/IllustrationSvg";
 
 const IndexPage = ({ data }) => {
   const { title, subtitle } = data.site.siteMetadata;
@@ -19,6 +20,7 @@ const IndexPage = ({ data }) => {
       </Helmet>
       <Styled.h1 data-testid="title">{title}</Styled.h1>
       <Styled.p data-testid="subtitle">{subtitle}</Styled.p>
+      <IllustrationSvg />
       {hasPinnedItems ? (
         <Repos repos={items.nodes} />
       ) : (

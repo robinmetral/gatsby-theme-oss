@@ -6,7 +6,6 @@
   "main": "gatsby-config.js",
   "author": "Robin Métral <robin@metral.ch>",
   "dependencies": {
-    "@emotion/core": "^10.0.28",
     "@theme-ui/components": "^0.3.1",
     "gatsby-plugin-manifest": "^2.2.23",
     "gatsby-plugin-offline": "^3.0.16",
