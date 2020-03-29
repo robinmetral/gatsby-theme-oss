@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.1.0 (2020-03-29)
+
+
+### Features
+
+* redesign ([#59](https://github.com/robinmetral/gatsby-theme-oss/issues/59)) ([484703a](https://github.com/robinmetral/gatsby-theme-oss/commit/484703afa5213792809f78ada153f8e0093d9213))
+
+
+
+
+
 # 0.0.0-dev.0 (2019-10-27)
 
 ### Features
