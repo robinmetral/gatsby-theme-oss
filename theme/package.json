@@ -1,30 +1,33 @@
 {
-  "name": "gatsby-theme-dev",
+  "name": "gatsby-theme-oss",
   "description": "A Gatsby theme to showcase your open-source work",
   "version": "0.0.0",
   "license": "MIT",
   "main": "gatsby-config.js",
   "author": "Robin Métral <robin@metral.ch>",
   "dependencies": {
+    "@theme-ui/components": "^0.3.1",
     "gatsby-plugin-manifest": "^2.2.23",
     "gatsby-plugin-offline": "^3.0.16",
     "gatsby-plugin-react-helmet": "^3.1.13",
+    "gatsby-plugin-theme-ui": "^0.3.0",
+    "gatsby-source-graphql": "^2.3.0",
+    "lodash": "^4.17.15",
     "react-helmet": "^5.2.1",
-    "react-social-icons": "^4.1.0",
-    "react-transition-group": "^4.2.2"
+    "theme-ui": "^0.3.1"
   },
   "keywords": [
     "gatsby"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/robinmetral/gatsby-theme-dev"
+    "url": "https://github.com/robinmetral/gatsby-theme-oss"
   },
   "bugs": {
-    "url": "https://github.com/robinmetral/gatsby-theme-dev/issues"
+    "url": "https://github.com/robinmetral/gatsby-theme-oss/issues"
   },
   "peerDependencies": {
-    "gatsby": "^2.17.4",
+    "gatsby": "^2.20.8",
     "react": "^16.11.0",
     "react-dom": "^16.11.0"
   }

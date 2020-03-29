@@ -9,8 +9,8 @@
     "lint": "eslint --ignore-path .gitignore . --ext js",
     "lint:fix": "yarn lint --fix",
     "test": "jest",
-    "develop": "yarn workspace gatsby-starter-dev develop",
-    "build": "yarn workspace gatsby-starter-dev build",
+    "develop": "yarn workspace gatsby-starter-oss develop",
+    "build": "yarn workspace gatsby-starter-oss build",
     "release": "lerna publish"
   },
   "devDependencies": {

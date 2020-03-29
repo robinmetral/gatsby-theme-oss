@@ -1,4 +1,4 @@
-# gatsby-theme-dev
+# gatsby-theme-oss
 
 This repo uses yarn workspaces and contains different packages:
 

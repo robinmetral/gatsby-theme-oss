@@ -1,76 +1,87 @@
-import React from "react";
+/** @jsx jsx */
+import { Fragment } from "react";
 import { graphql } from "gatsby";
+import { jsx, Styled } from "theme-ui";
 import { Helmet } from "react-helmet";
 
-import Title from "../components/Title";
-import Message from "../components/Message";
-import Social from "../components/Social";
-
-import "../styles/main.css";
-import Patterns from "../styles/patterns.json";
+import Repos from "../components/Repos";
+import IllustrationSvg from "../components/IllustrationSvg";
 
 const IndexPage = ({ data }) => {
-  const {
-    title,
-    message,
-    pattern,
-    color,
-    titleFont,
-    messageFont,
-    social
-  } = data.site.siteMetadata;
-  const patternStyles = Patterns.patterns.find(p => p.name === pattern);
+  const { title, subtitle } = data.site.siteMetadata;
+  const { hasPinnedItems, items } = data.github.user.itemShowcase;
+
   return (
-    <div
-      id="background"
-      style={{
-        backgroundImage: patternStyles.backgroundImage,
-        backgroundColor: patternStyles.backgroundColor,
-        backgroundSize: patternStyles.backgroundSize,
-        backgroundPosition: patternStyles.backgroundPosition,
-        minHeight: "100vh",
-        width: "100vw",
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        alignItems: "center"
-      }}
-    >
+    <Fragment>
       <Helmet>
         <html lang="en" />
         <meta charSet="utf-8" />
-        <meta name="description" content={title + "&middot" + message} />
+        <meta name="description" content={title + "&middot" + subtitle} />
         <title>{title}</title>
-        <link
-          rel="stylesheet"
-          href={
-            "https://fonts.googleapis.com/css?family=" +
-            titleFont +
-            "|" +
-            messageFont
-          }
-        />
       </Helmet>
-      <Title title={title} titleFont={titleFont} color={color} />
-      <Message message={message} messageFont={messageFont} color={color} />
-      <Social social={social} color={color} />
-    </div>
+      <section
+        sx={{
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "space-between",
+          height: "100vh"
+        }}
+      >
+        <div />
+        <div
+          sx={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            maxWidth: 5,
+            mx: "auto",
+            px: [3, 4]
+          }}
+        >
+          <Styled.h1 data-testid="title">{title}</Styled.h1>
+          <Styled.p data-testid="subtitle">{subtitle}</Styled.p>
+        </div>
+        <IllustrationSvg sx={{ alignSelf: "flex-end" }} />
+      </section>
+      {hasPinnedItems ? (
+        <section sx={{ py: [4, 5] }}>
+          <Styled.h1 sx={{ mb: [4, 5] }}>Projects</Styled.h1>
+          <Repos repos={items.nodes} />
+        </section>
+      ) : (
+        <p>Pin repositories on GitHub to showcase them here!</p>
+      )}
+    </Fragment>
   );
 };
 
 export default IndexPage;
 
 export const query = graphql`
-  query {
+  query($github_username: String!) {
     site {
       siteMetadata {
         title
-        message
-        pattern
-        color
-        titleFont
-        messageFont
-        social
+        subtitle
+      }
+    }
+    github {
+      user(login: $github_username) {
+        itemShowcase {
+          hasPinnedItems
+          items(first: 6) {
+            nodes {
+              ... on GitHub_Repository {
+                nameWithOwner
+                description
+                primaryLanguage {
+                  color
+                }
+                url
+              }
+            }
+          }
+        }
       }
     }
   }
