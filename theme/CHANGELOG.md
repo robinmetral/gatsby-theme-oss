@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.1](https://github.com/robinmetral/gatsby-theme-oss/compare/gatsby-theme-oss@0.1.0...gatsby-theme-oss@0.1.1) (2020-03-30)
+
+
+### Bug Fixes
+
+* stretch illustration on landscape viewports ([#62](https://github.com/robinmetral/gatsby-theme-oss/issues/62)) ([71ba705](https://github.com/robinmetral/gatsby-theme-oss/commit/71ba705349af92b09ce0f3f9d34e6741670193b8))
+
+
+
+
+
 # 0.1.0 (2020-03-29)
 
 

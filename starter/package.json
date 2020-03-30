@@ -1,6 +1,6 @@
 {
   "name": "gatsby-starter-oss",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "main": "index.js",
   "license": "MIT",
@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "gatsby": "^2.20.8",
-    "gatsby-theme-oss": "^0.1.0",
+    "gatsby-theme-oss": "^0.1.1",
     "react": "^16.11.0",
     "react-dom": "^16.11.0"
   }
