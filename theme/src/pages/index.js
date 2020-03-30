@@ -24,7 +24,7 @@ const IndexPage = ({ data }) => {
           display: "flex",
           flexDirection: "column",
           justifyContent: "space-between",
-          height: "100vh"
+          minHeight: "100vh"
         }}
       >
         <div />
@@ -41,7 +41,7 @@ const IndexPage = ({ data }) => {
           <Styled.h1 data-testid="title">{title}</Styled.h1>
           <Styled.p data-testid="subtitle">{subtitle}</Styled.p>
         </div>
-        <IllustrationSvg sx={{ alignSelf: "flex-end" }} />
+        <IllustrationSvg sx={{ flexShrink: 0 }} />
       </section>
       {hasPinnedItems ? (
         <section sx={{ py: [4, 5] }}>
