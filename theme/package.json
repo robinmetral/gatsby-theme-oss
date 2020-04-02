@@ -17,7 +17,9 @@
     "theme-ui": "^0.3.1"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-theme"
   ],
   "repository": {
     "type": "git",
