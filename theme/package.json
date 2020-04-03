@@ -1,7 +1,7 @@
 {
   "name": "gatsby-theme-oss",
   "description": "A Gatsby theme to showcase your open-source work",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "license": "MIT",
   "main": "gatsby-config.js",
   "author": "Robin Métral <robin@metral.ch>",

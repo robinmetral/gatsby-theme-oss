@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.3](https://github.com/robinmetral/gatsby-theme-oss/compare/gatsby-starter-oss@0.1.2...gatsby-starter-oss@0.1.3) (2020-04-03)
+
+**Note:** Version bump only for package gatsby-starter-oss
+
+
+
+
+
 ## [0.1.2](https://github.com/robinmetral/gatsby-theme-oss/compare/gatsby-starter-oss@0.1.1...gatsby-starter-oss@0.1.2) (2020-04-02)
 
 **Note:** Version bump only for package gatsby-starter-oss
