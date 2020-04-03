@@ -1,14 +1,6 @@
 # gatsby-theme-oss
 
-This repo uses yarn workspaces and contains different packages:
+This repo uses yarn workspaces and contains two main packages:
 
-- `/theme`: the Gatsby theme, published to npm
-- `/example`: an example Gatsby site build with the theme
-
-## Scripts
-
-- `commit`: commit using commitizen for semantic-release
-- `lint`: lint the theme with ESLint and Prettier
-- `test`: test the theme with Jest and React Testing Library
-- `develop`: start a development server for the demo
-- `build`: build the demo
+- [`/theme`](https://github.com/robinmetral/gatsby-theme-oss/tree/master/theme): a [Gatsby Theme](https://www.gatsbyjs.org/docs/themes/), published to npm
+- [`/examples/gatsby-starter-oss`](https://github.com/robinmetral/gatsby-theme-oss/tree/master/examples/gatsby-starter-oss): a [Gatsby Starter](https://www.gatsbyjs.org/docs/starters/) using the theme
