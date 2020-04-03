@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.4](https://github.com/robinmetral/gatsby-theme-oss/compare/gatsby-starter-oss@0.1.3...gatsby-starter-oss@0.1.4) (2020-04-03)
+
+
+### Bug Fixes
+
+* ignore node_modules in the starter ([#65](https://github.com/robinmetral/gatsby-theme-oss/issues/65)) ([0aa2ef7](https://github.com/robinmetral/gatsby-theme-oss/commit/0aa2ef77361015a6b958788a91f00f9293d1a13f))
+
+
+
+
+
 ## [0.1.3](https://github.com/robinmetral/gatsby-theme-oss/compare/gatsby-starter-oss@0.1.2...gatsby-starter-oss@0.1.3) (2020-04-03)
 
 **Note:** Version bump only for package gatsby-starter-oss
