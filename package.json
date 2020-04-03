@@ -3,7 +3,7 @@
   "license": "MIT",
   "workspaces": [
     "theme",
-    "starter"
+    "examples/*"
   ],
   "scripts": {
     "lint": "eslint --ignore-path .gitignore . --ext js",
