@@ -1,5 +1,6 @@
 {
   "name": "gatsby-starter-oss",
+  "description": "A Gatsby starter to showcase your open-source projects.",
   "version": "0.2.0",
   "private": true,
   "main": "index.js",
