@@ -4,17 +4,25 @@ A Gatsby starter using [`gatsby-theme-oss`](https://github.com/robinmetral/gatsb
 
 ## Getting started
 
-### With the Gatsby CLI
+### Clone
+
+#### With the Gatsby CLI
 
 ```
 gatsby new my-gatsby-site https://github.com/robinmetral/gatsby-starter-oss
 ```
 
-### On GitHub
+#### On GitHub
 
 Create a new repo from `gatsby-starter-oss` with the GitHub
 `Use this template` button, or
 [click here](https://github.com/robinmetral/gatsby-starter-oss/generate).
+
+### Add a GitHub token
+
+The starter expects a GitHub token (with `repo` access). The default config expects it in the `GITHUB_TOKEN` [environment variable](https://www.gatsbyjs.org/docs/environment-variables/).
+
+You can simply create a token [here](https://github.com/settings/tokens), add it to the `.env-example` file, rename the file `.env`, and you're ready to go!
 
 ## Features
 
