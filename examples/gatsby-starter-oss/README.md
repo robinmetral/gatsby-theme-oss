@@ -1,6 +1,6 @@
 # gatsby-starter-oss
 
-A Gatsby starter using [`gatsby-theme-oss`](https://github.com/robinmetral/gatsby-theme-oss/tree/master/theme).
+A Gatsby starter to showcase your open-source projects.
 
 ## Getting started
 
