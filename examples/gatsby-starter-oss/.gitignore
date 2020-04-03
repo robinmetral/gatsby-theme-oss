@@ -1,0 +1,3 @@
+# ignore node_modules while the publish-starter action doesn't pull .gitignore from the root
+# https://github.com/johno/actions-push-subdirectories/issues/1
+node_modules
