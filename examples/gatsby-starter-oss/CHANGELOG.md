@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/robinmetral/gatsby-theme-oss/compare/gatsby-starter-oss@0.1.4...gatsby-starter-oss@0.2.0) (2020-04-03)
+
+
+### Features
+
+* make it easy to add the github token env var ([#66](https://github.com/robinmetral/gatsby-theme-oss/issues/66)) ([ee6928f](https://github.com/robinmetral/gatsby-theme-oss/commit/ee6928f989b62aa7b5ba68190d75bd5104025def))
+
+
+
+
+
 ## [0.1.4](https://github.com/robinmetral/gatsby-theme-oss/compare/gatsby-starter-oss@0.1.3...gatsby-starter-oss@0.1.4) (2020-04-03)
 
 
