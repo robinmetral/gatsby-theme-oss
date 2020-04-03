@@ -1,7 +1,7 @@
 {
   "name": "gatsby-starter-oss",
   "description": "A Gatsby starter to showcase your open-source projects.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "private": true,
   "main": "index.js",
   "license": "MIT",
@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "gatsby": "^2.20.8",
-    "gatsby-theme-oss": "^0.1.3",
+    "gatsby-theme-oss": "^0.1.4",
     "react": "^16.11.0",
     "react-dom": "^16.11.0"
   }
