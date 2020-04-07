@@ -1,5 +1,10 @@
 {
-  extends: ["config:base"],
+  extends: [
+    "config:base",
+    // add [skip ci] to commit body when pinning
+    ":pinSkipCi",
+  ],
+  includePaths: ["package.json", "theme/**", "examples/**"],
   // bump versions instead of widening the range
   // https://docs.renovatebot.com/configuration-options/#rangestrategy
   rangeStrategy: "bump",
@@ -9,6 +14,9 @@
   major: {
     automerge: false,
   },
+  // don't create 2 PRs if there is a new minor and major
+  // https://docs.renovatebot.com/configuration-options/#separatemajorminor
+  separateMajorMinor: false,
   // group updates
   // https://docs.renovatebot.com/configuration-options/#groupname
   packageRules: [
