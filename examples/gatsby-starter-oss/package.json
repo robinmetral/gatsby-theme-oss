@@ -1,10 +1,22 @@
 {
+  "private": true,
   "name": "gatsby-starter-oss",
   "description": "A Gatsby starter to showcase your open-source projects.",
   "version": "0.2.1",
-  "private": true,
-  "main": "index.js",
   "license": "MIT",
+  "main": "gatsby-config.js",
+  "author": "Robin Métral <robin@metral.ch>",
+  "keywords": [
+    "gatsby",
+    "gatsby-starter"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robinmetral/gatsby-starter-oss"
+  },
+  "bugs": {
+    "url": "https://github.com/robinmetral/gatsby-theme-oss/issues"
+  },
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build"
