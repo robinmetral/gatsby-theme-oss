@@ -4,6 +4,9 @@
     // add [skip ci] to commit body when pinning
     ":pinSkipCi",
   ],
+  // config:base ignores the `examples` path by default
+  // an empty ignorePaths array overrides it to enable updates for `examples/gatsby-starter-oss`
+  ignorePaths: [],
   // bump versions instead of widening the range
   // https://docs.renovatebot.com/configuration-options/#rangestrategy
   rangeStrategy: "bump",
