@@ -10,7 +10,7 @@ exports.onCreatePage = (
     ...page,
     context: {
       ...page.context,
-      github_username: themeOptions.github_username
-    }
+      github_username: themeOptions.github_username,
+    },
   });
 };
