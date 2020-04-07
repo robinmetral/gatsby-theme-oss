@@ -33,7 +33,6 @@
   // "chore(theme): update gatsby"
   // https://docs.renovatebot.com/configuration-options/#semanticcommits
   semanticCommits: true,
-  semanticCommitScope: "{{baseDir}}",
   // add custom branch prefix
   // "chore/update-gatsby"
   // https://docs.renovatebot.com/configuration-options/#branchprefix
