@@ -30,7 +30,7 @@
   },
   "peerDependencies": {
     "gatsby": "^2.20.13",
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }
