@@ -5,17 +5,6 @@
   "license": "MIT",
   "main": "gatsby-config.js",
   "author": "Robin Métral <robin@metral.ch>",
-  "dependencies": {
-    "@theme-ui/components": "^0.3.1",
-    "gatsby-plugin-manifest": "^2.2.23",
-    "gatsby-plugin-offline": "^3.0.16",
-    "gatsby-plugin-react-helmet": "^3.1.13",
-    "gatsby-plugin-theme-ui": "^0.3.0",
-    "gatsby-source-graphql": "^2.3.0",
-    "lodash": "^4.17.15",
-    "react-helmet": "^5.2.1",
-    "theme-ui": "^0.3.1"
-  },
   "keywords": [
     "gatsby",
     "gatsby-plugin",
@@ -27,6 +16,17 @@
   },
   "bugs": {
     "url": "https://github.com/robinmetral/gatsby-theme-oss/issues"
+  },
+  "dependencies": {
+    "@theme-ui/components": "^0.3.1",
+    "gatsby-plugin-manifest": "^2.2.23",
+    "gatsby-plugin-offline": "^3.0.16",
+    "gatsby-plugin-react-helmet": "^3.1.13",
+    "gatsby-plugin-theme-ui": "^0.3.0",
+    "gatsby-source-graphql": "^2.3.0",
+    "lodash": "^4.17.15",
+    "react-helmet": "^5.2.1",
+    "theme-ui": "^0.3.1"
   },
   "peerDependencies": {
     "gatsby": "^2.20.8",
