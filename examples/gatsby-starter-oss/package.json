@@ -2,7 +2,7 @@
   "private": true,
   "name": "gatsby-starter-oss",
   "description": "A Gatsby starter to showcase your open-source projects.",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "license": "MIT",
   "main": "gatsby-config.js",
   "author": "Robin Métral <robin@metral.ch>",
@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "gatsby": "^2.20.13",
-    "gatsby-theme-oss": "^0.1.4",
+    "gatsby-theme-oss": "^0.1.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   }

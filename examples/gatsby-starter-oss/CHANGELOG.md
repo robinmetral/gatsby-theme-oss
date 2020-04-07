@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.2](https://github.com/robinmetral/gatsby-starter-oss/compare/gatsby-starter-oss@0.2.1...gatsby-starter-oss@0.2.2) (2020-04-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency gatsby to ^2.20.13 ([#80](https://github.com/robinmetral/gatsby-starter-oss/issues/80)) ([27a10a6](https://github.com/robinmetral/gatsby-starter-oss/commit/27a10a665cb1b0d7b5df9214ff3a111891f1f870))
+* **deps:** update react monorepo to ^16.13.1 ([#81](https://github.com/robinmetral/gatsby-starter-oss/issues/81)) ([eebaba3](https://github.com/robinmetral/gatsby-starter-oss/commit/eebaba35b6c3f1a7beb928df5f4bd3a1ce7ac32c))
+
+
+
+
+
 ## [0.2.1](https://github.com/robinmetral/gatsby-theme-oss/compare/gatsby-starter-oss@0.2.0...gatsby-starter-oss@0.2.1) (2020-04-03)
 
 **Note:** Version bump only for package gatsby-starter-oss
