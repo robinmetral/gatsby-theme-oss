@@ -9,8 +9,8 @@ module.exports = {
         subtitle:
           "I'm the developer behind gatsby-theme-oss. Check out my other open-source projects below!",
         github_username: "robinmetral",
-        github_token: process.env.GITHUB_TOKEN
-      }
-    }
-  ]
+        github_token: process.env.GITHUB_TOKEN,
+      },
+    },
+  ],
 };

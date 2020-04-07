@@ -24,7 +24,7 @@ const IndexPage = ({ data }) => {
           display: "flex",
           flexDirection: "column",
           justifyContent: "space-between",
-          minHeight: "100vh"
+          minHeight: "100vh",
         }}
       >
         <div />
@@ -35,7 +35,7 @@ const IndexPage = ({ data }) => {
             alignItems: "center",
             maxWidth: 5,
             mx: "auto",
-            px: [3, 4]
+            px: [3, 4],
           }}
         >
           <Styled.h1 data-testid="title">{title}</Styled.h1>

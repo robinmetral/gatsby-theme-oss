@@ -24,8 +24,8 @@ const Repo = ({ repo }) => (
         left: 0,
         right: 0,
         height: 10,
-        background: repo.primaryLanguage.color
-      }
+        background: repo.primaryLanguage.color,
+      },
     }}
   >
     <h1
@@ -34,7 +34,7 @@ const Repo = ({ repo }) => (
         lineHeight: "body",
         fontWeight: "bold",
         fontSize: [2, 3],
-        m: 0
+        m: 0,
       }}
     >
       {repo.nameWithOwner}
@@ -45,7 +45,7 @@ const Repo = ({ repo }) => (
         lineHeight: "body",
         fontWeight: "body",
         fontSize: [2, 3],
-        my: 2
+        my: 2,
       }}
     >
       {repo.description}

@@ -2,7 +2,7 @@ module.exports = ({ title, subtitle, github_token }) => {
   return {
     siteMetadata: {
       title,
-      subtitle
+      subtitle,
     },
     plugins: [
       {
@@ -12,9 +12,9 @@ module.exports = ({ title, subtitle, github_token }) => {
           fieldName: `github`,
           url: `https://api.github.com/graphql`,
           headers: {
-            Authorization: `Bearer ${github_token}`
-          }
-        }
+            Authorization: `Bearer ${github_token}`,
+          },
+        },
       },
       {
         resolve: `gatsby-plugin-manifest`,
@@ -25,12 +25,12 @@ module.exports = ({ title, subtitle, github_token }) => {
           background_color: `#fff`,
           theme_color: `#fff`,
           display: `standalone`,
-          icon: `icon.png`
-        }
+          icon: `icon.png`,
+        },
       },
       `gatsby-plugin-offline`,
       `gatsby-plugin-react-helmet`,
-      `gatsby-plugin-theme-ui`
-    ]
+      `gatsby-plugin-theme-ui`,
+    ],
   };
 };

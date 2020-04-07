@@ -1,6 +1,6 @@
 import React from "react";
 
-const IllustrationSvg = props => (
+const IllustrationSvg = (props) => (
   <svg
     id="a581a3db-2a43-4a80-ac9d-86c7ddaa56ac"
     x="0px"
