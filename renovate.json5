@@ -1,0 +1,42 @@
+{
+  extends: ["config:base"],
+  includePaths: ["package.json", "theme", "examples/**"],
+  // bump versions instead of widening the range
+  // https://docs.renovatebot.com/configuration-options/#rangestrategy
+  rangeStrategy: "bump",
+  // auto-merge everything but major versions
+  // https://docs.renovatebot.com/configuration-options/#automerge
+  automerge: true,
+  major: {
+    automerge: false,
+  },
+  // group updates
+  // https://docs.renovatebot.com/configuration-options/#groupname
+  packageRules: [
+    {
+      packagePatterns: ["^eslint", "prettier"],
+      groupName: "Linting",
+    },
+    {
+      packagePatterns: ["gatsby"],
+      groupName: "Gatsby",
+    },
+    {
+      packagePatterns: ["@testing-library"],
+      groupName: "Testing Library",
+    },
+    {
+      packagePatterns: ["theme-ui", "@theme-ui"],
+      groupName: "Theme UI",
+    },
+  ],
+  // use semantic commits and the parent dir as the scope
+  // "chore(theme): update gatsby"
+  // https://docs.renovatebot.com/configuration-options/#semanticcommits
+  semanticCommits: true,
+  semanticCommitsScope: "{{parentDir}}",
+  // add custom branch prefix
+  // "chore/update-gatsby-2-20"
+  // https://docs.renovatebot.com/configuration-options/#branchprefix
+  branchPrefix: "chore/update-",
+}
