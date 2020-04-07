@@ -1,10 +1,5 @@
 {
   extends: ["config:base"],
-  includePaths: [
-    "package.json",
-    "theme/package.json",
-    "examples/gatsby-starter-oss/package.json",
-  ],
   // bump versions instead of widening the range
   // https://docs.renovatebot.com/configuration-options/#rangestrategy
   rangeStrategy: "bump",
@@ -38,7 +33,7 @@
   // "chore(theme): update gatsby"
   // https://docs.renovatebot.com/configuration-options/#semanticcommits
   semanticCommits: true,
-  semanticCommitScope: "{{parentDir}}",
+  semanticCommitScope: "{{baseDir}}",
   // add custom branch prefix
   // "chore/update-gatsby"
   // https://docs.renovatebot.com/configuration-options/#branchprefix
