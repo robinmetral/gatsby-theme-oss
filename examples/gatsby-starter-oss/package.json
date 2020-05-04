@@ -22,7 +22,7 @@
     "build": "gatsby build"
   },
   "dependencies": {
-    "gatsby": "^2.20.36",
+    "gatsby": "^2.21.9",
     "gatsby-theme-oss": "^0.1.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
