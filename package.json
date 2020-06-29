@@ -16,8 +16,8 @@
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
-    "@testing-library/jest-dom": "^5.10.1",
-    "@testing-library/react": "^10.3.0",
+    "@testing-library/jest-dom": "^5.11.0",
+    "@testing-library/react": "^10.4.3",
     "babel-jest": "^26.1.0",
     "babel-preset-gatsby": "^0.4.12",
     "eslint-config-prettier": "^6.11.0",
