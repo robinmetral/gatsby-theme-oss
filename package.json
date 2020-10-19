@@ -19,7 +19,7 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "babel-jest": "^26.5.2",
-    "babel-preset-gatsby": "^0.5.13",
+    "babel-preset-gatsby": "^0.5.14",
     "eslint-config-prettier": "^6.13.0",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.21.4",
