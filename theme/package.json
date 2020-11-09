@@ -19,17 +19,17 @@
   },
   "dependencies": {
     "@theme-ui/components": "^0.3.3",
-    "gatsby-plugin-manifest": "^2.4.37",
-    "gatsby-plugin-offline": "^3.2.38",
+    "gatsby-plugin-manifest": "^2.5.2",
+    "gatsby-plugin-offline": "^3.3.2",
     "gatsby-plugin-react-helmet": "^3.3.14",
     "gatsby-plugin-theme-ui": "^0.3.0",
-    "gatsby-source-graphql": "^2.7.6",
+    "gatsby-source-graphql": "^2.7.7",
     "lodash": "^4.17.20",
     "react-helmet": "^6.1.0",
     "theme-ui": "^0.3.1"
   },
   "peerDependencies": {
-    "gatsby": "^2.24.91",
+    "gatsby": "^2.25.3",
     "react": "^16.14.0",
     "react-dom": "^16.14.0"
   }
