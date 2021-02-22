@@ -24,7 +24,7 @@
     "gatsby-plugin-react-helmet": "^3.10.0",
     "gatsby-plugin-theme-ui": "^0.3.5",
     "gatsby-source-graphql": "^2.14.0",
-    "lodash": "^4.17.20",
+    "lodash": "^4.17.21",
     "react-helmet": "^6.1.0",
     "theme-ui": "^0.3.5"
   },
