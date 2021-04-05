@@ -26,7 +26,7 @@
     "gatsby-source-graphql": "^2.14.0",
     "lodash": "^4.17.21",
     "react-helmet": "^6.1.0",
-    "theme-ui": "^0.6.0"
+    "theme-ui": "^0.6.1"
   },
   "peerDependencies": {
     "gatsby": "^2.32.8",
