@@ -3386,6 +3386,19 @@
     "@theme-ui/css" "0.6.0"
     "@types/styled-system" "^5.1.10"
 
+"@theme-ui/components@^0.6.2":
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/@theme-ui/components/-/components-0.6.2.tgz#8955336f23989f9d506d5418af0858f44cdc321b"
+  integrity sha512-xPasFO3cnXcVBKmc3jiTHCyr1m3yRe0RNxIuF+IIOQ0t/hrVUVa+VrZmd/hmTVkpPUj/9G/XEeOvpK6VoO3MDg==
+  dependencies:
+    "@emotion/react" "^11.1.1"
+    "@emotion/styled" "^11.0.0"
+    "@styled-system/color" "^5.1.2"
+    "@styled-system/should-forward-prop" "^5.1.2"
+    "@styled-system/space" "^5.1.2"
+    "@theme-ui/css" "^0.6.2"
+    "@types/styled-system" "^5.1.10"
+
 "@theme-ui/core@^0.6.1":
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/@theme-ui/core/-/core-0.6.1.tgz#65f039515daadfa76448798540f28807ec91e59c"
@@ -3400,6 +3413,14 @@
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/@theme-ui/css/-/css-0.6.0.tgz#4fca3a2e730da232fbb67a1431bf7199ae6db977"
   integrity sha512-+44BewW6nM4E4Fg4viutWV3y/AFxBDPgceStPoKNMWKB2h28KXFuEJIOyHse8sX39Keg/RIIcBk2q0EcDpB+LQ==
+  dependencies:
+    "@emotion/react" "^11.1.1"
+    csstype "^3.0.5"
+
+"@theme-ui/css@^0.6.2":
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/@theme-ui/css/-/css-0.6.2.tgz#d5a165408d8fdf8e3080cae60ea10c5f140499b8"
+  integrity sha512-OBm16M+gwKBqcoFFToDUnW6d9VO6TIUtazrGiD1Y4/hh+0f+ZosHds3xqvrVpZvzMKjm5AOL0lnQZNDQXefttQ==
   dependencies:
     "@emotion/react" "^11.1.1"
     csstype "^3.0.5"
