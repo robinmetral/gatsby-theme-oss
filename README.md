@@ -1,3 +1,5 @@
+⚠️ This project is unmaintained—get in touch if you're interested in taking it over!
+
 # gatsby-theme-oss
 
 This repo uses yarn workspaces and contains two main packages:
